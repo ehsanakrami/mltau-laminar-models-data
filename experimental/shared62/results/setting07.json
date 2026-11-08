@@ -1,0 +1,148 @@
+{
+  "qualification_complete": true,
+  "index": 7,
+  "new_coarse_field_RHS": 64,
+  "original_nine_queries": 0,
+  "new_reference_profiles": 0,
+  "model_updates": 0,
+  "maxima": {
+    "actual_package_source_frame": 0.0,
+    "actual_package_warm_action": 0.0,
+    "all64_actual_condensed_equations": 8.27636477978476e-07,
+    "all64_actual_coarse_equations": 7.181778233316322e-07,
+    "all64_affine_vs_direct_coarse": 1.9313200518471207e-06,
+    "all64_affine_vs_direct_fine": 5.674132318751487e-06,
+    "all64_actual_extended_reader_vs_affine": 2.3327485069804187e-06,
+    "all64_independent_modeled_fine_equations": 4.653518052651671e-07,
+    "all62_action_columns_recovered_from_actual_FEM": 3.4529255185511936e-06,
+    "retained_literal_old_ball_from_actual_FEM_action": 3.0935759115559766e-06,
+    "retained_literal_old_8_from_actual_FEM_action": 1.6938916283416914e-05,
+    "retained_literal_old_9_from_actual_FEM_action": 4.587027957583361e-07,
+    "retained_literal_old_10_from_actual_FEM_action": 2.3541138642080217e-07,
+    "retained_literal_old_11_from_actual_FEM_action": 3.9433869731575647e-07,
+    "retained_literal_old_12_from_actual_FEM_action": 3.920770260908353e-07,
+    "retained_literal_old_joint_mass_C4_from_actual_FEM_action": 7.540498791678566e-06,
+    "retained_literal_old_joint_mass_G025_from_actual_FEM_action": 7.721668368376347e-06,
+    "H1_all_cross_terms_Gauss20_vs28": 1.6384342459116212e-06,
+    "D_all_cross_terms_Gauss20_vs28": 2.537568006199744e-06,
+    "PUD12_all_cross_terms_Gauss20_vs28": 2.5977456154748197e-06,
+    "H1_all_cross_terms_Gauss20_vs40": 8.30283821484637e-06,
+    "D_all_cross_terms_Gauss20_vs40": 1.8706849862253807e-05,
+    "PUD12_all_cross_terms_Gauss20_vs40": 2.10895506346338e-05,
+    "complete57_gradient_map_vs_actual_physical_field": 8.622102033502713e-07,
+    "complete57_divergence_C4GLS_map_vs_actual_physical_field": 7.322622137431327e-08,
+    "complete57_divergence_GALERKIN_0.25_map_vs_actual_physical_field": 1.0500645061958402e-07,
+    "named12_pressure_map_vs_actual_physical_field": 1.7167645119881198e-07,
+    "named12_velocity_map_vs_actual_physical_field": 9.383772197116817e-08,
+    "named12_divergence_map_vs_actual_physical_field": 1.392079325537922e-08,
+    "named12_pressure_RMS_map_vs_actual_physical_field": 2.284171023815904e-08,
+    "extended62_raw_action_map_vs_actual_physical_field": 1.7287638334667235e-07,
+    "all57_literal_velocity_references": 3.380394187296614e-07,
+    "C4GLS_independent_full57_D": 1.2513765614478101e-08,
+    "GALERKIN_0.25_independent_full57_D": 1.0855508303639461e-08,
+    "PRIMARY_independent_full57_D": 1.3374760102272308e-08,
+    "C4GLS_complete57_PUD_Gauss20_vs28": 2.0446012982481846e-06,
+    "GALERKIN_0.25_complete57_PUD_Gauss20_vs28": 2.95969854045205e-06,
+    "PRIMARY_complete57_PUD_Gauss20_vs28": 2.572252553789711e-06,
+    "C4GLS_complete57_PUD_Gauss20_vs40": 1.0362151964620966e-05,
+    "GALERKIN_0.25_complete57_PUD_Gauss20_vs40": 2.016232144009977e-05,
+    "PRIMARY_complete57_PUD_Gauss20_vs40": 1.8695190152393526e-05
+  },
+  "scientific_release": false,
+  "submission_ready": false,
+  "registered_physical_gates_pass": true,
+  "additional_complete57_PU_pass": false,
+  "all_registered_and_additional_PU_pass": false,
+  "physical": {
+    "all_original_and_extended_physical_gates_pass": true,
+    "original_physical": {
+      "original_and_joint53_pass": true,
+      "original52_qualification_applicable": false,
+      "reason": "Six consumedDEV fitting knots preserve registered partial maps only; full original52 conditions not newly claimed"
+    },
+    "full57_H1_squared_ratio": 0.9999321683388562,
+    "full57_dual_divergence_norm_ratios": [
+      1.0113091628474125,
+      1.0101684766782413
+    ],
+    "all12_dual_pressure_NR": true,
+    "all12_named_velocity_safeguards": true,
+    "all12_named_divergence_safeguards": true,
+    "named12_pressure_RMS_ratio_to_G025": 0.8981555855319904,
+    "raw_action_norm": 0.9993742044478023,
+    "minimum_relative_symmetric_energy": 0.8663922873737108,
+    "weak_and_redundant_gauge_fraction": 5.787014669654994e-06,
+    "quadrature_orders": [
+      20,
+      28,
+      40
+    ]
+  },
+  "additional_PU": {
+    "C4GLS": [
+      {
+        "metric": "pressure",
+        "pressure_NR_or_velocity_squared_bound": 1.0,
+        "baseline_relative_minimum": 4.235868228541928e-07,
+        "baseline_inverse_admitted": true,
+        "largest_generalized_squared_ratio": 1.6306010757282863,
+        "largest_absolute_Loewner_difference": 0.000730740984161697,
+        "numerical_Loewner_tolerance": 5.024319759753607e-09,
+        "within_numerical_Loewner_tolerance": false,
+        "no_ridge_or_direction_drop": true
+      },
+      {
+        "metric": "velocity",
+        "pressure_NR_or_velocity_squared_bound": 1.0404,
+        "baseline_relative_minimum": 3.507317826564069e-06,
+        "baseline_inverse_admitted": true,
+        "largest_generalized_squared_ratio": 1.1771912774366025,
+        "largest_absolute_Loewner_difference": 4.0238178557667834e-05,
+        "numerical_Loewner_tolerance": 9.23490619619032e-09,
+        "within_numerical_Loewner_tolerance": false,
+        "no_ridge_or_direction_drop": true
+      }
+    ],
+    "GALERKIN_0.25": [
+      {
+        "metric": "pressure",
+        "pressure_NR_or_velocity_squared_bound": 1.0,
+        "baseline_relative_minimum": 4.5326899319249727e-07,
+        "baseline_inverse_admitted": true,
+        "largest_generalized_squared_ratio": 2.1895569829782255,
+        "largest_absolute_Loewner_difference": 0.048102737021143246,
+        "numerical_Loewner_tolerance": 4.0669019265932515e-09,
+        "within_numerical_Loewner_tolerance": false,
+        "no_ridge_or_direction_drop": true
+      },
+      {
+        "metric": "velocity",
+        "pressure_NR_or_velocity_squared_bound": 1.0404,
+        "baseline_relative_minimum": 2.950427855604395e-06,
+        "baseline_inverse_admitted": true,
+        "largest_generalized_squared_ratio": 1.4601918703357348,
+        "largest_absolute_Loewner_difference": 0.012954145792550293,
+        "numerical_Loewner_tolerance": 7.52725150620462e-09,
+        "within_numerical_Loewner_tolerance": false,
+        "no_ridge_or_direction_drop": true
+      }
+    ]
+  },
+  "fields_pin": {
+    "bytes": 15207974,
+    "sha256": "e7661dc03562aab3d3588cc6a42964ad7aeb35ffd93983ef496273831eacfd37"
+  },
+  "model_pin": {
+    "bytes": 11078832,
+    "sha256": "a79ab92aa5b26fa58b9cb5622b709c8e8fa70fc6e0fe583dd459130c832ca030"
+  },
+  "actual_package_raw_norm": 0.9993742044478031,
+  "quadrature_orders": [
+    20,
+    28,
+    40
+  ],
+  "scope": "Fixed shared primary at an opened fitting knot. Actual64 coupled solves and literal complete57 field cross terms. Six intermediate knots retain registered partial original tests; full original52 qualification is not claimed there. Additional P/U mixture criteria remain separately labelled posthoc diagnostics.",
+  "UTC": "2026-11-07T04:33:40.840628+00:00",
+  "elapsed_seconds": 33.73936045099981
+}

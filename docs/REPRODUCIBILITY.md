@@ -1,0 +1,11 @@
+# Reproducibility boundaries
+
+1. **Coefficient integrity and inference:** all eight pressure45 candidates, deterministic saved-feature fixtures and rejection controls can be checked without the private solver.
+2. **Training-data inspection:** qualified raw feature/log-teacher arrays and all 72 train/validation case positions are included. Qualification failures are retained in the case catalogue. No training optimizer is included.
+3. **Experimental evidence:** shared58 coefficient/result tables and shared62 coefficients, thirteen physical result records and plotted metrics are included. Actual field containers and earlier bulk tiers need the separately staged asset deposit. These files are not a new native qualification.
+4. **Finite linear-response certificate:** E,A,B,Y are interpreted as pinned binary64 data. The standalone checker uses conservative scalar/product roundoff bounds and computed-factor residuals. A positive result excludes two stored linear spectral-ball constraints at one opened viscosity. It does not enclose finite-element assembly/projection errors or prove continuum/nonlinear infeasibility.
+5. **Native simulations:** unavailable from this repository because the core solver is private. Inference and saved-field postprocessing do not regenerate the reported PDE runs.
+
+The original nine and subsequent frozen 24-plus-four-variant prospective rosters remain unscored. They are not a hidden public test set in this repository. New meshes, physical families, full-Shakib qualification and complete deployment cost remain separate research requirements.
+
+Historical JSON flags describe the stage at which a record was written. Current interpretation belongs to the model card and manuscript, not a favorable historical success flag. Negative results are retained.

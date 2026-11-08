@@ -1,0 +1,7 @@
+{
+  "basis": "Saved physical predictor features from qualified teacher records. Expected values computed with byte-pinned historical inference.py, not native PDE execution.",
+  "source_model_SHA256": "07ad426d51aa38d56ebea9967eff3a4bc184d16bb6a01a96a94c51ea2d82bf03",
+  "cases": 4,
+  "feature_rows": 20,
+  "models": 8
+}

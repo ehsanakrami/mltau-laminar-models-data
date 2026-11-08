@@ -1,0 +1,17 @@
+setting,viscosity,method,H1_squared_ratio57,H1_absolute_Loewner_maximum,H1_absolute_bound_pass,max_dual_divergence_norm_ratio57,dual_mass_absolute_bound_pass,data_role
+0,0.0010349277670798646,C4GLS,1.0000000000001215,0.0,True,1.5132703920456652,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+0,0.0010349277670798646,GALERKIN_0.25,15.565065123255522,1.1666005389833334,False,1.176835275830293,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+0,0.0010349277670798646,OLD_FIT2,4.203139816558041,0.030988902665554565,False,1.3723391185298905,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+0,0.0010349277670798646,JOINT_MASS_FIT0,4.646432152970529,0.03008853618772495,False,1.32388051835189,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+16,0.0031150226977291764,C4GLS,1.0000000000002032,0.0,True,1.4135576455849823,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+16,0.0031150226977291764,GALERKIN_0.25,21.125772389459982,3.2306519348640044,False,1.098964068229171,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+16,0.0031150226977291764,OLD_FIT2,4.512241488348152,0.024074237064978805,False,1.2148906418050232,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+16,0.0031150226977291764,JOINT_MASS_FIT0,4.465617810617297,0.023426652783931697,False,1.1893174062515317,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+32,0.010349277670798646,C4GLS,1.0000000000000746,0.0,True,1.3401276076520379,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+32,0.010349277670798646,GALERKIN_0.25,53.03081818948924,10.684202566729377,False,1.0435415209361458,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+32,0.010349277670798646,OLD_FIT2,8.933606393288702,0.035631940318137115,False,1.1748148042718969,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+32,0.010349277670798646,JOINT_MASS_FIT0,8.577609681320638,0.033110309677716936,False,1.1754322052618482,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+47,0.02898753029368176,C4GLS,1.000000000000092,0.0,True,1.2711444045310707,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+47,0.02898753029368176,GALERKIN_0.25,71.37092062871979,13.333695029013633,False,1.0087986032385485,True,Posthoc Gauss20 development diagnostic; not a prospective trial
+47,0.02898753029368176,OLD_FIT2,18.207198691429788,0.1471619601071244,False,1.173147831076826,False,Posthoc Gauss20 development diagnostic; not a prospective trial
+47,0.02898753029368176,JOINT_MASS_FIT0,16.96828677750203,0.1458562383610395,False,1.1728133609470053,False,Posthoc Gauss20 development diagnostic; not a prospective trial

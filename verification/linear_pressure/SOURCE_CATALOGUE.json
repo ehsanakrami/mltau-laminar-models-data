@@ -1,0 +1,354 @@
+{
+  "geometry": [
+    [
+      0.8,
+      0.15
+    ],
+    [
+      0,
+      0.45
+    ]
+  ],
+  "reference_domain": [
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ]
+  ],
+  "advection": [
+    -1,
+    0.4
+  ],
+  "mesh": [
+    8,
+    8
+  ],
+  "forcing": "f=-nu*Laplacian(u)+beta dot gradient(u)+gradient(p); analytic velocities are divergence free",
+  "homogeneous57_order": [
+    "13 clamped-Legendre velocities, zero pressure",
+    "8 rational and5 tanh-layer enveloped velocities, zero pressure",
+    "6 monomial pure pressures and6 rational+7 tanh-layer pure pressures",
+    "8 named trigonometric/Gaussian profiles",
+    "4 rational/quartic-exponential named profiles"
+  ],
+  "original13_stream_envelope": "(1-xi^2)^2*(1-eta^2)^2; Legendre degrees and original linear normalizer in source_coordinates.npz",
+  "rational_kernel": "1/(1+((xi-a)^2+(eta-b)^2)/s^2)",
+  "rational_parameters": [
+    [
+      -0.45,
+      -0.35,
+      0.4
+    ],
+    [
+      0.4,
+      -0.4,
+      0.45
+    ],
+    [
+      -0.4,
+      0.4,
+      0.5
+    ],
+    [
+      0.4,
+      0.35,
+      0.55
+    ],
+    [
+      0.0,
+      0.0,
+      0.35
+    ],
+    [
+      0.15,
+      -0.1,
+      0.8
+    ],
+    [
+      -0.15,
+      0.25,
+      0.65
+    ],
+    [
+      0.25,
+      0.1,
+      0.4
+    ]
+  ],
+  "tanh_kernel": "tanh(k*(nx*xi+ny*eta-shift))",
+  "tanh_parameters": [
+    [
+      1.0,
+      0.0,
+      2.0,
+      -0.2
+    ],
+    [
+      0.0,
+      1.0,
+      2.5,
+      0.15
+    ],
+    [
+      1.0,
+      1.0,
+      1.5,
+      -0.1
+    ],
+    [
+      1.0,
+      -1.0,
+      2.0,
+      0.2
+    ],
+    [
+      2.0,
+      1.0,
+      1.5,
+      0.05
+    ],
+    [
+      1.0,
+      2.0,
+      1.8,
+      -0.15
+    ],
+    [
+      2.0,
+      -1.0,
+      1.3,
+      0.1
+    ]
+  ],
+  "velocity_envelope": "(1-xi^2)^2*(1-eta^2)^2; physical stream-function curl",
+  "pure_pressure_monomials": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "old8": [
+    {
+      "family": "trigonometric_enveloped",
+      "shape": {
+        "multiplier": "sin(pi*m*(xi+1)/2)*sin(pi*n*(eta+1)/2)",
+        "m": 1,
+        "n": 1
+      }
+    },
+    {
+      "family": "trigonometric_enveloped",
+      "shape": {
+        "multiplier": "sin(pi*m*(xi+1)/2)*sin(pi*n*(eta+1)/2)",
+        "m": 1,
+        "n": 2
+      }
+    },
+    {
+      "family": "trigonometric_enveloped",
+      "shape": {
+        "multiplier": "sin(pi*m*(xi+1)/2)*sin(pi*n*(eta+1)/2)",
+        "m": 2,
+        "n": 1
+      }
+    },
+    {
+      "family": "trigonometric_enveloped",
+      "shape": {
+        "multiplier": "sin(pi*m*(xi+1)/2)*sin(pi*n*(eta+1)/2)",
+        "m": 2,
+        "n": 2
+      }
+    },
+    {
+      "family": "Gaussian_enveloped",
+      "shape": {
+        "multiplier": "exp(-k*((xi-cx)^2+(eta-cy)^2))",
+        "cx": -0.4,
+        "cy": -0.2,
+        "k": 4
+      }
+    },
+    {
+      "family": "Gaussian_enveloped",
+      "shape": {
+        "multiplier": "exp(-k*((xi-cx)^2+(eta-cy)^2))",
+        "cx": 0.3,
+        "cy": -0.35,
+        "k": 8
+      }
+    },
+    {
+      "family": "Gaussian_enveloped",
+      "shape": {
+        "multiplier": "exp(-k*((xi-cx)^2+(eta-cy)^2))",
+        "cx": -0.2,
+        "cy": 0.4,
+        "k": 12
+      }
+    },
+    {
+      "family": "Gaussian_enveloped",
+      "shape": {
+        "multiplier": "exp(-k*((xi-cx)^2+(eta-cy)^2))",
+        "cx": 0.35,
+        "cy": 0.25,
+        "k": 16
+      }
+    }
+  ],
+  "new4": [
+    {
+      "family": "rational_enveloped",
+      "shape": {
+        "ax": 1.35,
+        "ay": 0.65
+      },
+      "pressure": {
+        "ax": 1.15,
+        "ay": 0.85
+      }
+    },
+    {
+      "family": "rational_enveloped",
+      "shape": {
+        "ax": 0.5,
+        "ay": 1.9
+      },
+      "pressure": {
+        "ax": 0.7,
+        "ay": 1.55
+      }
+    },
+    {
+      "family": "quartic_exponential_enveloped",
+      "shape": {
+        "k": 1.9,
+        "cx": -0.12,
+        "cy": 0.23
+      },
+      "pressure": {
+        "k": 2.7,
+        "cx": 0.17,
+        "cy": -0.05
+      }
+    },
+    {
+      "family": "quartic_exponential_enveloped",
+      "shape": {
+        "k": 3.6,
+        "cx": 0.22,
+        "cy": -0.08
+      },
+      "pressure": {
+        "k": 3.8,
+        "cx": -0.13,
+        "cy": 0.18
+      }
+    }
+  ],
+  "old_named_pressure_laws": {
+    "trigonometric": ".2*cos(pi*xi)*sin(pi*eta)",
+    "Gaussian": ".2*exp(-5*((xi+.1)^2+(eta-.2)^2))"
+  },
+  "new_named_pressure_laws": {
+    "rational": ".2/(1+ax*xi^2+ay*eta^2)",
+    "quartic_exponential": ".2*exp(-k*((xi-cx)^4+(eta-cy)^4))"
+  },
+  "fitting_knots": [
+    {
+      "label": "TRAIN0",
+      "viscosity": 0.001,
+      "complete_original52_test": true
+    },
+    {
+      "label": "TRAIN100",
+      "viscosity": 0.0017320508075688774,
+      "complete_original52_test": true
+    },
+    {
+      "label": "TRAIN4",
+      "viscosity": 0.003,
+      "complete_original52_test": true
+    },
+    {
+      "label": "TRAIN104",
+      "viscosity": 0.005477225575051661,
+      "complete_original52_test": true
+    },
+    {
+      "label": "TRAIN8",
+      "viscosity": 0.01,
+      "complete_original52_test": true
+    },
+    {
+      "label": "TRAIN108",
+      "viscosity": 0.017320508075688773,
+      "complete_original52_test": true
+    },
+    {
+      "label": "TRAIN12",
+      "viscosity": 0.03,
+      "complete_original52_test": true
+    },
+    {
+      "label": "consumedDEV0",
+      "viscosity": 0.0013160740129524926,
+      "complete_original52_test": false
+    },
+    {
+      "label": "consumedDEV1",
+      "viscosity": 0.0022795070569547778,
+      "complete_original52_test": false
+    },
+    {
+      "label": "consumedDEV2",
+      "viscosity": 0.004053600464421103,
+      "complete_original52_test": false
+    },
+    {
+      "label": "consumedDEV3",
+      "viscosity": 0.007400828044922853,
+      "complete_original52_test": false
+    },
+    {
+      "label": "consumedDEV4",
+      "viscosity": 0.013160740129524924,
+      "complete_original52_test": false
+    },
+    {
+      "label": "consumedDEV5",
+      "viscosity": 0.022795070569547774,
+      "complete_original52_test": false
+    }
+  ],
+  "other_original52_normalizers_and_all271_training_maps": "Pinned in the local fitting-input corpus catalogued by EXTENDED62_SHARED_REFERENCES_V3089/RESULT.json and SHARED_EXTENDED_CPU_INPUTS_V3091.tar; not duplicated in this small certificate dataset.",
+  "protected_queries": 0,
+  "trained_model": false,
+  "licence": "UNSET_LOCAL_REVIEW_ONLY",
+  "deposited": false
+}

@@ -1,0 +1,42 @@
+Continuous metric24 hypothesis, 2026-10-18, before its fitted-model outcomes.
+
+Frozen-model audit shows a long-axis tie defect: hx>=hy selectsx at isotropy.
+A2e-12 relative metric perturbation changes the old model coefficient by up
+to98.27% on the first isotropic Kovasznay training field. This is a frozen
+state/geometry conditioning test, not a new flow solution or causal proof
+that the defect caused any reported Gaussian failure. Original results remain.
+
+Replace only six of24 descriptors, keeping parameter count and all pressure
+moments. Let s^2=ux^2+uy^2, h=sqrt(hx*hy):
+ Pe_stream=s^2/[2nu sqrt(ux^2/hx^2+uy^2/hy^2)],
+ Pe_cross =s^2/[2nu sqrt(uy^2/hx^2+ux^2/hy^2)],
+ both defined0 at s=0. Their clipped max/min directional ratio and coth
+functions replace the corresponding long/short descriptors. The old alignment
+becomes (hx^2-hy^2)(ux^2-uy^2)/[(hx^2+hy^2)(s^2+(1e-12nu/h)^2)].
+This is a scalar contraction of the metric deviator with the velocity tensor;
+it vanishes at an isotropic metric and selects no eigenvector there.
+The coth extension uses a ninth-order series below .01 and a cubic smooth
+blend to the stable expm1 expression above .02 (also for the scalar xi_coth
+descriptor). This avoids an unmatched hard series switch near zero.
+
+These quantities are invariant under coordinate axis swaps/reflections and
+continuous as hx approaches hy. On positive bounded cell sizes/viscosities
+the full map is locally Lipschitz in geometry/state, including isotropy;
+abs/clips allow nonsmooth but continuous points. The tanh/asinh/clipped map
+therefore has a finite local sensitivity bound. No arbitrary-rotation,
+moving-mesh or nonlinear-solver contraction theorem is asserted. Three
+pressure moments retain their earlier gauge and rectangular-axis symmetry.
+
+Controlled refit: same45 qualified teachers, family-equal weights, dimension24,
+architectures/seeds, normalization rule, .001 penalty and3000-step fitting
+as the matched v7 family-equal models. Pool8 (constant, ridge and6 neural
+fits). Select only on the original16 validation cases, preserving all missing
+SH predictors/failures. The old descriptor models remain comparison records;
+their valid PDE results are not erased by a descriptor-conditioning defect.
+
+Fresh confirmation32 tuples, fixed in fresh_roster.py before model outcomes:
+16 mesh/aspect across four exposed training families,8 gradient-force
+parameter cases and8 new pressure-mode cases. Linke was previously exposed;
+these are fresh numerical parameters, NOT a claim of a newly unseen family.
+No new test teacher exists. Full matched controls and all failures remain.
+Native cost/physical-boundary transfer still need separate qualification.

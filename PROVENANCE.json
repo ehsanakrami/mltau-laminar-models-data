@@ -1,0 +1,139 @@
+{
+  "copied_members": [
+    {
+      "file": "models/pressure45/MODELS.json",
+      "source": "pressure45 DATA001:experiments/v10/MODELS.json",
+      "sha256": "07ad426d51aa38d56ebea9967eff3a4bc184d16bb6a01a96a94c51ea2d82bf03"
+    },
+    {
+      "file": "src/mltau_models/inference.py",
+      "source": "pressure45 METADATA:inference.py",
+      "sha256": "c22719d791961a231df6162bb0cc61608f90c63696f2111ff3f81ccec3b9e932"
+    },
+    {
+      "file": "analysis/rectangular_features/continuous_metric.py",
+      "source": "pressure45 METADATA:continuous_metric.py",
+      "sha256": "b1cbfa439c2e265d5ddeac4def138677db21948b0dc3f314a9a3c5e2a925d10c"
+    },
+    {
+      "file": "analysis/rectangular_features/pressure_moments.py",
+      "source": "pressure45 METADATA:pressure_moments.py",
+      "sha256": "0a7a4bc6377dd88c75bb8a0ac14697956de5962dfe4a91f18c0470d08144227c"
+    },
+    {
+      "file": "analysis/rectangular_features/roster.py",
+      "source": "pressure45 METADATA:roster.py",
+      "sha256": "c3d206787dc078346f870821fd4144665a6c7512b2299346ba9196376db594a6"
+    },
+    {
+      "file": "analysis/rectangular_features/rect_fe.py",
+      "source": "pressure45 METADATA:rect_fe.py",
+      "sha256": "805bf89d368c1f20d35f1148f294a999c2d12caa32b9be94d5f247e83cc3fc1d"
+    },
+    {
+      "file": "analysis/rectangular_features/strict_features.py",
+      "source": "pressure45 METADATA:strict_features.py",
+      "sha256": "ed5e8b1d716e8ae7197078e89d065ea76fc1198bb716dd7484fbd6b5dab2100d"
+    },
+    {
+      "file": "analysis/rectangular_features/backend.py",
+      "source": "pressure45 METADATA:backend.py",
+      "sha256": "70bc6554d32a795dce860ac4ffbe00f9a7c0f9649f0555ec39aeb59d9eff19f3"
+    },
+    {
+      "file": "experimental/shared58/models/OLD_FIT2_NOT_RELEASED.npz",
+      "source": "shared58 review:models/OLD_FIT2_NOT_RELEASED.npz",
+      "sha256": "266d305467743885df727420ca2c8983da760dce8f6ffe4881095f30ee0a46a8"
+    },
+    {
+      "file": "experimental/shared58/models/JOINT_MASS_FIT0_NOT_RELEASED.npz",
+      "source": "shared58 review:models/JOINT_MASS_FIT0_NOT_RELEASED.npz",
+      "sha256": "50b637cea67b0cd5401cce9a475756f277a322eb2d476488966b223487a3826c"
+    },
+    {
+      "file": "experimental/shared58/models/JOINT_MASS_FIT1_NOT_RELEASED.npz",
+      "source": "shared58 review:models/JOINT_MASS_FIT1_NOT_RELEASED.npz",
+      "sha256": "c98e3f59f3f0cca2ff017740d35adf65566a958f477b35ceafa12da733b08a29"
+    },
+    {
+      "file": "experimental/shared58/models/JOINT_MASS_FIT2_NOT_RELEASED.npz",
+      "source": "shared58 review:models/JOINT_MASS_FIT2_NOT_RELEASED.npz",
+      "sha256": "110cf402db8f0488c6941d0e2b039089bc7f351d3bd3b4194d13cac778812afe"
+    },
+    {
+      "file": "experimental/shared58/models/JOINT_MASS_FIT3_NOT_RELEASED.npz",
+      "source": "shared58 review:models/JOINT_MASS_FIT3_NOT_RELEASED.npz",
+      "sha256": "e62407cdea1f7d4f281eaa3bb3eb30717e7c679f952ee4de55973a5065f75556"
+    },
+    {
+      "file": "experimental/shared58/ALL_PROFILE_ERRORS.csv",
+      "source": "shared58 review:ALL_PROFILE_ERRORS.csv",
+      "sha256": "a2e39c0fc007d78d316a859d0fa9ab4bb92cdab714103658f2a4523c70965120"
+    },
+    {
+      "file": "experimental/shared58/ALL_SETTING_COMBINATIONS.csv",
+      "source": "shared58 review:ALL_SETTING_COMBINATIONS.csv",
+      "sha256": "94f960af04c5a57eb37267681a413c24a56085dbbe2f86c6f590842ed8970ec5"
+    },
+    {
+      "file": "experimental/shared58/POSTHOC_COMBINED57_RESULTS.csv",
+      "source": "shared58 review:POSTHOC_COMBINED57_RESULTS.csv",
+      "sha256": "c5b0a9f09b430d158fdf3be02ab6b7a7afb67d8dbc0399a96e59da581ef0ef6a"
+    },
+    {
+      "file": "experimental/shared62/models/fit0_CANDIDATE_NOT_RELEASED.npz",
+      "source": "shared62 known-only coefficient export:fit0_CANDIDATE_NOT_RELEASED.npz",
+      "sha256": "a79ab92aa5b26fa58b9cb5622b709c8e8fa70fc6e0fe583dd459130c832ca030"
+    },
+    {
+      "file": "experimental/shared62/models/fit1_CANDIDATE_NOT_RELEASED.npz",
+      "source": "shared62 known-only coefficient export:fit1_CANDIDATE_NOT_RELEASED.npz",
+      "sha256": "82d7c2b6359da38e57595c51ab68780842e485dbb3055276e6fc1f3497004e19"
+    },
+    {
+      "file": "experimental/shared62/models/fit2_CANDIDATE_NOT_RELEASED.npz",
+      "source": "shared62 known-only coefficient export:fit2_CANDIDATE_NOT_RELEASED.npz",
+      "sha256": "f3d3de0a042a542380a717594e2c1ececbbbbfde22705dcba6b1c585d024c8ff"
+    },
+    {
+      "file": "experimental/shared62/models/fit3_CANDIDATE_NOT_RELEASED.npz",
+      "source": "shared62 known-only coefficient export:fit3_CANDIDATE_NOT_RELEASED.npz",
+      "sha256": "51a69f1a540289e22421d1459ef20524161f7d57b88e388dfdb90236464b6fa8"
+    },
+    {
+      "file": "experimental/shared62/metrics.csv",
+      "source": "expanded13 complete-mixture readback",
+      "sha256": "067b058cee8a96b42eb8bbc05d436b68b4139eff44ff8b6c68e71b4ae81103c7"
+    },
+    {
+      "file": "verification/linear_pressure/pressure_certificate_data.npz",
+      "source": "finite-data certificate:pressure_certificate_data.npz",
+      "sha256": "d26d08110e7442aa5ba8bd3004860ade40c836e1cc09901db7d36409ab7305b9"
+    },
+    {
+      "file": "verification/linear_pressure/verify_pressure_certificate.py",
+      "source": "finite-data certificate:verify_pressure_certificate.py",
+      "sha256": "27da89a1cda4be6900d8e83b5d74df69ceebef3721f7c59d47a92163560739c4"
+    },
+    {
+      "file": "verification/linear_pressure/source_coordinates.npz",
+      "source": "finite-data certificate:source_coordinates.npz",
+      "sha256": "d03e7940d76fe91534e70fe6836a401898bd2301f854a2fe0bab39d79edb2138"
+    },
+    {
+      "file": "figures/complete_mixture_audit.pdf",
+      "source": "13-setting physical readback figure",
+      "sha256": "32b6c7f50edb661436ae64f7c988fcd87bfe0f11afad325bd340ffdb7c437646"
+    },
+    {
+      "file": "figures/complete_mixture_audit.png",
+      "source": "13-setting physical readback figure",
+      "sha256": "a1d990453d19455e9b363ae726c7809d366dd906d0fea5f12d4eaad955d70425"
+    }
+  ],
+  "publication_status": "GitHub upload prepared; Zenodo DOI reserved in an unpublished draft",
+  "private_solver_included": false,
+  "training_source_included": false,
+  "manuscript_source_included": false,
+  "reserved_DOI": "10.5281/zenodo.24046881"
+}

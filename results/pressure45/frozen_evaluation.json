@@ -1,0 +1,1828 @@
+{
+  "selected": "continuous_affine_ridge",
+  "frozen_selection_sha256": "19bf2acd778c64876e94950bb86a1fe944d7f3b3bb2ce083a17d2dc04ceb9fa5",
+  "models_sha256": "07ad426d51aa38d56ebea9967eff3a4bc184d16bb6a01a96a94c51ea2d82bf03",
+  "summaries": [
+    {
+      "split": "validation",
+      "denominator": 16,
+      "baseline_available": 13,
+      "native_passed": 13,
+      "strict_joint": 9,
+      "pressure_5pct_with_velocity_1pct": 7,
+      "beats_uniform_pressure_with_velocity_1pct": 6,
+      "conditional_GM_ratios": [
+        0.771599535192551,
+        0.7822918043035213,
+        1.099732833934495
+      ],
+      "conditional_GM_denominator": 13
+    },
+    {
+      "split": "family_test",
+      "denominator": 8,
+      "baseline_available": 8,
+      "native_passed": 8,
+      "strict_joint": 8,
+      "pressure_5pct_with_velocity_1pct": 0,
+      "beats_uniform_pressure_with_velocity_1pct": 0,
+      "conditional_GM_ratios": [
+        0.0800747534399594,
+        0.9650701099814039,
+        0.1391488507190981
+      ],
+      "conditional_GM_denominator": 8
+    },
+    {
+      "split": "geometry_test",
+      "denominator": 16,
+      "baseline_available": 14,
+      "native_passed": 14,
+      "strict_joint": 12,
+      "pressure_5pct_with_velocity_1pct": 11,
+      "beats_uniform_pressure_with_velocity_1pct": 4,
+      "conditional_GM_ratios": [
+        0.745041110169509,
+        0.7366252731707003,
+        0.9857948135554099
+      ],
+      "conditional_GM_denominator": 14
+    },
+    {
+      "split": "pressure_test",
+      "denominator": 8,
+      "baseline_available": 8,
+      "native_passed": 8,
+      "strict_joint": 7,
+      "pressure_5pct_with_velocity_1pct": 6,
+      "beats_uniform_pressure_with_velocity_1pct": 4,
+      "conditional_GM_ratios": [
+        0.6278622245343998,
+        0.7146083746486662,
+        1.0653308093705383
+      ],
+      "conditional_GM_denominator": 8
+    }
+  ],
+  "cases": [
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.006,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_mms_n10x10_nu0p006"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "validation_continuous_affine_ridge_validation_mms_n10x10_nu0p006",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.026480592882505507,
+        0.02215621215788983,
+        0.4054351096185408
+      ],
+      "SH_errors": [
+        0.07343046468053771,
+        0.0627601325030561,
+        0.36000108012410087
+      ],
+      "ratios_to_SH": [
+        0.36062134425691605,
+        0.3530300411142525,
+        1.126205258825273
+      ],
+      "pressure_ratio_to_uniform": 0.7692220494754871
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.006,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_mms_n20x5_nu0p006"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "validation_continuous_affine_ridge_validation_mms_n20x5_nu0p006",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.08120770268254185,
+        0.067591445522327,
+        0.5906311542422457
+      ],
+      "SH_errors": [
+        0.13736081150998775,
+        0.10978615648553885,
+        0.49862049827809
+      ],
+      "ratios_to_SH": [
+        0.5911999338809751,
+        0.6156645581378943,
+        1.18453043202576
+      ],
+      "pressure_ratio_to_uniform": 0.7461952470523732
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.022,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_mms_n10x10_nu0p022"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "validation_continuous_affine_ridge_validation_mms_n10x10_nu0p022",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.027441986422164014,
+        0.019372076226196373,
+        0.39736470024285186
+      ],
+      "SH_errors": [
+        0.05112033453549824,
+        0.03449485030906922,
+        0.37440122476436116
+      ],
+      "ratios_to_SH": [
+        0.5368115578959709,
+        0.5615932828415017,
+        1.0613338684801135
+      ],
+      "pressure_ratio_to_uniform": 0.7449774600951385
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.022,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_mms_n20x5_nu0p022"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "validation_continuous_affine_ridge_validation_mms_n20x5_nu0p022",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.08169657897162644,
+        0.056790066271667036,
+        0.565836447078037
+      ],
+      "SH_errors": [
+        0.10959071286994274,
+        0.08037930981235207,
+        0.5194311901093003
+      ],
+      "ratios_to_SH": [
+        0.7454699110186482,
+        0.706525925692136,
+        1.0893386031727745
+      ],
+      "pressure_ratio_to_uniform": 0.7585962485589989
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.006,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_kov_n10x10_nu0p006"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "validation_continuous_affine_ridge_validation_kov_n10x10_nu0p006",
+      "raw_archive": "raw/worker_0.zip",
+      "failure": null,
+      "errors": [
+        0.201832265912523,
+        0.043142023258366684,
+        0.1338849741940858
+      ],
+      "SH_errors": [
+        0.21487057377582033,
+        0.05802904616016732,
+        0.15274063162739446
+      ],
+      "ratios_to_SH": [
+        0.9393201794262415,
+        0.7434556676890636,
+        0.8765511361815866
+      ],
+      "pressure_ratio_to_uniform": 0.9462121791839928
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.006,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_kov_n20x5_nu0p006"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_kov_n20x5_nu0p006",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.6576109009655733,
+        0.14254847845089733,
+        0.25142015707322496
+      ],
+      "SH_errors": [
+        0.6641749544243002,
+        0.15284480277474788,
+        0.19303731345083164
+      ],
+      "ratios_to_SH": [
+        0.9901169813540823,
+        0.9326354306006429,
+        1.3024433078699262
+      ],
+      "pressure_ratio_to_uniform": 0.9643482533512103
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.022,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_kov_n10x10_nu0p022"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_kov_n10x10_nu0p022",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.20111283557980203,
+        0.14228881002924965,
+        0.42223725237359555
+      ],
+      "SH_errors": [
+        0.21680302663551979,
+        0.18148521264302067,
+        0.4368589490687152
+      ],
+      "ratios_to_SH": [
+        0.9276292803693398,
+        0.7840242626771478,
+        0.9665299366619596
+      ],
+      "pressure_ratio_to_uniform": 1.0728022416118423
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.022,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_kov_n20x5_nu0p022"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_kov_n20x5_nu0p022",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.6146781407880884,
+        0.42791831573373507,
+        0.8536284052689289
+      ],
+      "SH_errors": [
+        0.6344250949936259,
+        0.433586609474238,
+        0.6298019841714055
+      ],
+      "ratios_to_SH": [
+        0.9688742542478779,
+        0.9869269631103778,
+        1.3553917369631647
+      ],
+      "pressure_ratio_to_uniform": 0.9869269631103778
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.012,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_poly_n10x10_nu0p012"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_poly_n10x10_nu0p012",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.00043618914765905986,
+        0.0004320952136596789,
+        0.0049217164205381005
+      ],
+      "SH_errors": [
+        0.000557722720839291,
+        0.000440661685287783,
+        0.004880689587245244
+      ],
+      "ratios_to_SH": [
+        0.7820896143565015,
+        0.9805599807877338,
+        1.0084059501346023
+      ],
+      "pressure_ratio_to_uniform": 1.00392568090371
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.012,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_poly_n20x5_nu0p012"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "validation_continuous_affine_ridge_validation_poly_n20x5_nu0p012",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.0012105177059427972,
+        0.00015154276587860395,
+        0.006930609315106959
+      ],
+      "SH_errors": [
+        0.0013175683678186298,
+        0.0001570572057236741,
+        0.006655659378748905
+      ],
+      "ratios_to_SH": [
+        0.9187513418730096,
+        0.9648889726538734,
+        1.041310698266193
+      ],
+      "pressure_ratio_to_uniform": 0.9653739459937836
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.035,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_poly_n10x10_nu0p035"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_poly_n10x10_nu0p035",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.00043652489553547107,
+        0.0004464323764300064,
+        0.0049244108496597026
+      ],
+      "SH_errors": [
+        0.0005495319102843809,
+        0.0005117643852979866,
+        0.0048858545233557305
+      ],
+      "ratios_to_SH": [
+        0.7943576839961322,
+        0.8723396728165459,
+        1.007891419222505
+      ],
+      "pressure_ratio_to_uniform": 1.0363574501047992
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.035,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_poly_n20x5_nu0p035"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_poly_n20x5_nu0p035",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.0012127166248752793,
+        0.0003810198583866844,
+        0.006917527290292523
+      ],
+      "SH_errors": [
+        0.0013157774206363898,
+        0.0003496620020212814,
+        0.006657682029542194
+      ],
+      "ratios_to_SH": [
+        0.9216730777221697,
+        1.0896804805330105,
+        1.0390293888469464
+      ],
+      "pressure_ratio_to_uniform": 1.0905679516025748
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.035,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_gaussian_n10x10_nu0p035"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": false,
+      "baseline_available": false,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_gaussian_n10x10_nu0p035",
+      "raw_archive": null,
+      "failure": null
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.035,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_gaussian_n20x5_nu0p035"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": false,
+      "baseline_available": false,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_gaussian_n20x5_nu0p035",
+      "raw_archive": null,
+      "failure": null
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.075,
+        "nx": 10,
+        "ny": 10,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_gaussian_n10x10_nu0p075"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_gaussian_n10x10_nu0p075",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        1.1409736147057041,
+        8.4474520009737,
+        5.664588189839314
+      ],
+      "SH_errors": [
+        1.2456828088250396,
+        8.553723719288659,
+        4.1752941869941145
+      ],
+      "ratios_to_SH": [
+        0.9159423302806114,
+        0.9875759702087038,
+        1.356691992503018
+      ],
+      "pressure_ratio_to_uniform": 0.9992905360746586
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.075,
+        "nx": 20,
+        "ny": 5,
+        "order": 1,
+        "split": "validation",
+        "name": "validation_gaussian_n20x5_nu0p075"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": false,
+      "baseline_available": false,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "validation_continuous_affine_ridge_validation_gaussian_n20x5_nu0p075",
+      "raw_archive": null,
+      "failure": null
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.014,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_mms_n20x12_nu0p014_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_mms_n20x12_nu0p014_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.012490415448177188,
+        0.008375222192604202,
+        0.27713032610354865
+      ],
+      "SH_errors": [
+        0.026778130037804958,
+        0.019384409136615956,
+        0.26746931024552834
+      ],
+      "ratios_to_SH": [
+        0.46644091393026355,
+        0.43205971012982397,
+        1.0361200911205544
+      ],
+      "pressure_ratio_to_uniform": 0.6478526181129246
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.014,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_mms_n12x20_nu0p014_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_mms_n12x20_nu0p014_k1",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.012490415448176981,
+        0.008375222192603933,
+        0.27713032610354876
+      ],
+      "SH_errors": [
+        0.02677813003780466,
+        0.01938440913661565,
+        0.26746931024552856
+      ],
+      "ratios_to_SH": [
+        0.46644091393026105,
+        0.4320597101298169,
+        1.036120091120554
+      ],
+      "pressure_ratio_to_uniform": 0.6478526181129307
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.028,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_mms_n20x12_nu0p028_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_mms_n20x12_nu0p028_k1",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.015515618700066586,
+        0.009509274327305063,
+        0.2753029049383808
+      ],
+      "SH_errors": [
+        0.022846206993742194,
+        0.012933619125398456,
+        0.26990807416472445
+      ],
+      "ratios_to_SH": [
+        0.6791332453705103,
+        0.7352369228680301,
+        1.0199876598369706
+      ],
+      "pressure_ratio_to_uniform": 0.8492381156178205
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.028,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_mms_n12x20_nu0p028_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_mms_n12x20_nu0p028_k1",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.015515618700066411,
+        0.009509274327304912,
+        0.2753029049383809
+      ],
+      "SH_errors": [
+        0.02284620699374194,
+        0.01293361912539819,
+        0.2699080741647246
+      ],
+      "ratios_to_SH": [
+        0.6791332453705102,
+        0.7352369228680335,
+        1.0199876598369704
+      ],
+      "pressure_ratio_to_uniform": 0.8492381156178163
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.014,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_kov_n20x12_nu0p014_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_kov_n20x12_nu0p014_k1",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.13898977216724134,
+        0.0662683165801152,
+        0.21873233800009081
+      ],
+      "SH_errors": [
+        0.15430610245239926,
+        0.08628667004096965,
+        0.2489596023801008
+      ],
+      "ratios_to_SH": [
+        0.9007406055772633,
+        0.7680017846169105,
+        0.8785856657424272
+      ],
+      "pressure_ratio_to_uniform": 1.0093493954555721
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.014,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_kov_n12x20_nu0p014_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_kov_n12x20_nu0p014_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.058599285923425275,
+        0.02958706886540997,
+        0.16015400440060512
+      ],
+      "SH_errors": [
+        0.07815827143742066,
+        0.05001857940654889,
+        0.20472570623848801
+      ],
+      "ratios_to_SH": [
+        0.7497515598249155,
+        0.5915215749117448,
+        0.7822857585555931
+      ],
+      "pressure_ratio_to_uniform": 1.1448352882089519
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.028,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_kov_n20x12_nu0p028_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_kov_n20x12_nu0p028_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.1399983813492546,
+        0.12671175502919568,
+        0.40038612402070495
+      ],
+      "SH_errors": [
+        0.1542833284205503,
+        0.16096894473356252,
+        0.4160418804202058
+      ],
+      "ratios_to_SH": [
+        0.9074109483018326,
+        0.7871813736427875,
+        0.962369758583707
+      ],
+      "pressure_ratio_to_uniform": 1.066538935712809
+    },
+    {
+      "case": {
+        "family": "kov",
+        "nu": 0.028,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_kov_n12x20_nu0p028_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_kov_n12x20_nu0p028_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.0619781159575306,
+        0.06045324264518475,
+        0.274200202064366
+      ],
+      "SH_errors": [
+        0.07862734875779236,
+        0.09508714850727594,
+        0.301761683969208
+      ],
+      "ratios_to_SH": [
+        0.7882513773731721,
+        0.6357667002766304,
+        0.908664739862552
+      ],
+      "pressure_ratio_to_uniform": 1.214606056433739
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.014,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_poly_n20x12_nu0p014_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_poly_n20x12_nu0p014_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.00021915232413463275,
+        0.00011188962003824966,
+        0.0034386229304794423
+      ],
+      "SH_errors": [
+        0.0002776180303231739,
+        0.0001305207237828683,
+        0.00345704149958406
+      ],
+      "ratios_to_SH": [
+        0.7894023449396227,
+        0.8572555897283181,
+        0.9946721585185385
+      ],
+      "pressure_ratio_to_uniform": 1.0151705232974892
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.014,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_poly_n12x20_nu0p014_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_poly_n12x20_nu0p014_k1",
+      "raw_archive": "raw/worker_0.zip",
+      "failure": null,
+      "errors": [
+        0.00021990972147208673,
+        0.0003004015937418845,
+        0.003435467616076017
+      ],
+      "SH_errors": [
+        0.0002789182588247244,
+        0.0003078202779091821,
+        0.0034564188142372954
+      ],
+      "ratios_to_SH": [
+        0.7884378828360629,
+        0.9758993000146456,
+        0.9939384665784775
+      ],
+      "pressure_ratio_to_uniform": 1.0020224349785543
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.028,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_poly_n20x12_nu0p028_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_poly_n20x12_nu0p028_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.00022163137899745895,
+        0.00012175742537454637,
+        0.0034330756893561232
+      ],
+      "SH_errors": [
+        0.00027706883053597013,
+        0.0001828301007702259,
+        0.0034572912656093166
+      ],
+      "ratios_to_SH": [
+        0.7999145142697165,
+        0.6659594063647463,
+        0.9929957951492046
+      ],
+      "pressure_ratio_to_uniform": 1.0340818223123827
+    },
+    {
+      "case": {
+        "family": "poly",
+        "nu": 0.028,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_poly_n12x20_nu0p028_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_poly_n12x20_nu0p028_k1",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.00022289060673268962,
+        0.00030582899213338875,
+        0.0034359491637384358
+      ],
+      "SH_errors": [
+        0.0002773933013556328,
+        0.00033338319729699935,
+        0.003457135371417262
+      ],
+      "ratios_to_SH": [
+        0.8035183461295344,
+        0.917349748316609,
+        0.9938717448399653
+      ],
+      "pressure_ratio_to_uniform": 1.0105258867819988
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.045,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_gaussian_n20x12_nu0p045_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": false,
+      "baseline_available": false,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_gaussian_n20x12_nu0p045_k1",
+      "raw_archive": null,
+      "failure": null
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.045,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_gaussian_n12x20_nu0p045_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": false,
+      "baseline_available": false,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_gaussian_n12x20_nu0p045_k1",
+      "raw_archive": null,
+      "failure": null
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.09,
+        "nx": 20,
+        "ny": 12,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_gaussian_n20x12_nu0p09_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_gaussian_n20x12_nu0p09_k1",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.7323692632344119,
+        5.570739036471498,
+        5.628454687917307
+      ],
+      "SH_errors": [
+        0.8003236467530046,
+        5.125772269339833,
+        5.034944429838859
+      ],
+      "ratios_to_SH": [
+        0.9150913711043143,
+        1.086809702762892,
+        1.1178782142184323
+      ],
+      "pressure_ratio_to_uniform": 1.086809702762892
+    },
+    {
+      "case": {
+        "family": "gaussian",
+        "nu": 0.09,
+        "nx": 12,
+        "ny": 20,
+        "order": 1,
+        "split": "geometry_test",
+        "k": 1.0,
+        "name": "fresh_geometry_test_gaussian_n12x20_nu0p09_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_geometry_test_gaussian_n12x20_nu0p09_k1",
+      "raw_archive": "raw/worker_0.zip",
+      "failure": null,
+      "errors": [
+        0.7323692632344116,
+        5.570739036471497,
+        5.628454687917309
+      ],
+      "SH_errors": [
+        0.8003236467530044,
+        5.12577226933983,
+        5.034944429838859
+      ],
+      "ratios_to_SH": [
+        0.9150913711043143,
+        1.0868097027628922,
+        1.117878214218433
+      ],
+      "pressure_ratio_to_uniform": 1.0868097027628922
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.006,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n12x12_nu0p006_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n12x12_nu0p006_k1",
+      "raw_archive": "raw/worker_0.zip",
+      "failure": null,
+      "errors": [
+        0.00022254079187091367,
+        0.0018196351077496003,
+        0.0033612612509799898
+      ],
+      "SH_errors": [
+        0.0021682219177123767,
+        0.0019038862765263398,
+        0.015949011483488464
+      ],
+      "ratios_to_SH": [
+        0.10263746070130567,
+        0.9557477934393978,
+        0.21075044396700093
+      ],
+      "pressure_ratio_to_uniform": 1.0001600676770248
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.006,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n24x6_nu0p006_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n24x6_nu0p006_k1",
+      "raw_archive": "raw/worker_0.zip",
+      "failure": null,
+      "errors": [
+        0.0030594376788361777,
+        0.00526939716666703,
+        0.027249425131321805
+      ],
+      "SH_errors": [
+        0.006188691545407322,
+        0.005429866140607321,
+        0.04330881948230266
+      ],
+      "ratios_to_SH": [
+        0.4943593740920261,
+        0.9704469742375007,
+        0.6291888224396597
+      ],
+      "pressure_ratio_to_uniform": 1.0037246750684188
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.02,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n12x12_nu0p02_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n12x12_nu0p02_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        2.686737373545602e-05,
+        0.0018200086776537895,
+        0.0004799404683201809
+      ],
+      "SH_errors": [
+        0.0006537546088047339,
+        0.0019022016275053873,
+        0.004798728102071024
+      ],
+      "ratios_to_SH": [
+        0.0410970314757366,
+        0.9567906216338441,
+        0.10001409917620657
+      ],
+      "pressure_ratio_to_uniform": 1.0003656227706106
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.02,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n24x6_nu0p02_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n24x6_nu0p02_k1",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.00046049929049778084,
+        0.0052694638161799225,
+        0.00422183541542668
+      ],
+      "SH_errors": [
+        0.0019178023023236441,
+        0.005412454253863895,
+        0.013276267863687524
+      ],
+      "ratios_to_SH": [
+        0.2401182280049573,
+        0.9735812200940279,
+        0.3179986618810245
+      ],
+      "pressure_ratio_to_uniform": 1.003744514051222
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.06,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n12x12_nu0p06_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n12x12_nu0p06_k1",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        4.459573187123687e-06,
+        0.0018203614332850972,
+        8.63591116941611e-05
+      ],
+      "SH_errors": [
+        0.00021801413634880843,
+        0.0019020522731322705,
+        0.0015999745530283554
+      ],
+      "ratios_to_SH": [
+        0.020455431293632538,
+        0.9570512119981613,
+        0.05397530325135778
+      ],
+      "pressure_ratio_to_uniform": 1.0005595341178575
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.06,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n24x6_nu0p06_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n24x6_nu0p06_k1",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        6.733088542588294e-05,
+        0.005276177858050095,
+        0.0005573944847188432
+      ],
+      "SH_errors": [
+        0.0006412430398355409,
+        0.005410907034810587,
+        0.004433897400451342
+      ],
+      "ratios_to_SH": [
+        0.10500057114561624,
+        0.9751004451021384,
+        0.1257120845110453
+      ],
+      "pressure_ratio_to_uniform": 1.005023921822454
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.18,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n12x12_nu0p18_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n12x12_nu0p18_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        1.3300174940415638e-06,
+        0.0018204054682763638,
+        2.6047169037923504e-05
+      ],
+      "SH_errors": [
+        7.267493035233968e-05,
+        0.0019020356656479502,
+        0.0005333395683652716
+      ],
+      "ratios_to_SH": [
+        0.018300911849429044,
+        0.9570827199269273,
+        0.048837870997946314
+      ],
+      "pressure_ratio_to_uniform": 1.0005837400808864
+    },
+    {
+      "case": {
+        "family": "linke",
+        "nu": 0.18,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "family_test",
+        "k": 1.0,
+        "name": "fresh_family_test_linke_n24x6_nu0p18_k1"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_family_test_linke_n24x6_nu0p18_k1",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        1.8363649271693704e-05,
+        0.005275807686427917,
+        0.0001486718821274867
+      ],
+      "SH_errors": [
+        0.00021382151163897402,
+        0.005410734902845078,
+        0.0014782800269358995
+      ],
+      "ratios_to_SH": [
+        0.08588307664151082,
+        0.9750630517221952,
+        0.10057085221914681
+      ],
+      "pressure_ratio_to_uniform": 1.00495346377455
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.01,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 1.5,
+        "name": "fresh_pressure_test_mms_n12x12_nu0p01_k1p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n12x12_nu0p01_k1p5",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.017787407674926085,
+        0.014464403162527532,
+        0.3354579928161383
+      ],
+      "SH_errors": [
+        0.042916542207517616,
+        0.034644354544434236,
+        0.31547834201530306
+      ],
+      "ratios_to_SH": [
+        0.41446507011019856,
+        0.4175111169693101,
+        1.0633312913755142
+      ],
+      "pressure_ratio_to_uniform": 0.7463218791526174
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.01,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 1.5,
+        "name": "fresh_pressure_test_mms_n24x6_nu0p01_k1p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n24x6_nu0p01_k1p5",
+      "raw_archive": "raw/worker_0.zip",
+      "failure": null,
+      "errors": [
+        0.042190034283802726,
+        0.033008905035238796,
+        0.5097314319825084
+      ],
+      "SH_errors": [
+        0.08279117620886886,
+        0.06783422777505224,
+        0.44893153245513573
+      ],
+      "ratios_to_SH": [
+        0.5095957832192652,
+        0.4866113482518136,
+        1.1354324549110364
+      ],
+      "pressure_ratio_to_uniform": 0.6333959663868741
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.03,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 1.5,
+        "name": "fresh_pressure_test_mms_n12x12_nu0p03_k1p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n12x12_nu0p03_k1p5",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.021006062440861947,
+        0.014661144094660091,
+        0.3317400698460387
+      ],
+      "SH_errors": [
+        0.03266227610531405,
+        0.018906166565200458,
+        0.3220062785151496
+      ],
+      "ratios_to_SH": [
+        0.6431291675182528,
+        0.7754688949819184,
+        1.0302285762121597
+      ],
+      "pressure_ratio_to_uniform": 0.9103197768459154
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.03,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 1.5,
+        "name": "fresh_pressure_test_mms_n24x6_nu0p03_k1p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": true,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n24x6_nu0p03_k1p5",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.05724648541264368,
+        0.041611406921985485,
+        0.48846137903263637
+      ],
+      "SH_errors": [
+        0.07157229088507885,
+        0.05228941816011711,
+        0.4563094432531678
+      ],
+      "ratios_to_SH": [
+        0.7998414568643943,
+        0.7957902073908311,
+        1.0704608161300535
+      ],
+      "pressure_ratio_to_uniform": 0.8359645524674759
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.01,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 3.5,
+        "name": "fresh_pressure_test_mms_n12x12_nu0p01_k3p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n12x12_nu0p01_k3p5",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.015136195073293909,
+        0.027220240923403864,
+        0.36838523618195096
+      ],
+      "SH_errors": [
+        0.03360673134096668,
+        0.038534736065126675,
+        0.4000568626271702
+      ],
+      "ratios_to_SH": [
+        0.4503917658556354,
+        0.706381921946982,
+        0.9208321881113801
+      ],
+      "pressure_ratio_to_uniform": 1.0033423597682167
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.01,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 3.5,
+        "name": "fresh_pressure_test_mms_n24x6_nu0p01_k3p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": false,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n24x6_nu0p01_k3p5",
+      "raw_archive": "raw/worker_6.zip",
+      "failure": null,
+      "errors": [
+        0.0805764252734317,
+        0.11049091171542058,
+        0.9075918951807077
+      ],
+      "SH_errors": [
+        0.07517677663961213,
+        0.10865127100511743,
+        0.7776124302689607
+      ],
+      "ratios_to_SH": [
+        1.0718260196191278,
+        1.0169316078246016,
+        1.1671519896702136
+      ],
+      "pressure_ratio_to_uniform": 1.1735717782048471
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.03,
+        "nx": 12,
+        "ny": 12,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 3.5,
+        "name": "fresh_pressure_test_mms_n12x12_nu0p03_k3p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": true,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n12x12_nu0p03_k3p5",
+      "raw_archive": "raw/worker_4.zip",
+      "failure": null,
+      "errors": [
+        0.01679416445545898,
+        0.028559295585203457,
+        0.3473501337627061
+      ],
+      "SH_errors": [
+        0.029313432573328236,
+        0.037283392196517794,
+        0.343430054991214
+      ],
+      "ratios_to_SH": [
+        0.5729170206678452,
+        0.7660058246489397,
+        1.0114144895431252
+      ],
+      "pressure_ratio_to_uniform": 1.0018759633986691
+    },
+    {
+      "case": {
+        "family": "mms",
+        "nu": 0.03,
+        "nx": 24,
+        "ny": 6,
+        "order": 1,
+        "split": "pressure_test",
+        "k": 3.5,
+        "name": "fresh_pressure_test_mms_n24x6_nu0p03_k3p5"
+      },
+      "model": "continuous_affine_ridge",
+      "native_passed": true,
+      "baseline_available": true,
+      "strict_joint": true,
+      "pressure_5pct_with_velocity_1pct": false,
+      "beats_uniform_pressure_with_velocity_1pct": false,
+      "row_id": "heldout_continuous_affine_ridge_fresh_pressure_test_mms_n24x6_nu0p03_k3p5",
+      "raw_archive": "raw/worker_2.zip",
+      "failure": null,
+      "errors": [
+        0.05218213026499904,
+        0.1039076609602139,
+        0.6349121012727146
+      ],
+      "SH_errors": [
+        0.06492759400586273,
+        0.10540941439971284,
+        0.5538715415678966
+      ],
+      "ratios_to_SH": [
+        0.8036972733085901,
+        0.9857531374398467,
+        1.1463165258056205
+      ],
+      "pressure_ratio_to_uniform": 1.0838675870468373
+    }
+  ],
+  "all_candidate_completion": [
+    {
+      "model": "continuous_constant",
+      "kind": "constant",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 12,
+      "heldout_native_passes": 30,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    },
+    {
+      "model": "continuous_affine_ridge",
+      "kind": "affine",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 13,
+      "heldout_native_passes": 30,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    },
+    {
+      "model": "continuous_tanh16_s1801",
+      "kind": "tanh",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 12,
+      "heldout_native_passes": 30,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    },
+    {
+      "model": "continuous_tanh16_s1802",
+      "kind": "tanh",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 11,
+      "heldout_native_passes": 27,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    },
+    {
+      "model": "continuous_tanh16_s1803",
+      "kind": "tanh",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 13,
+      "heldout_native_passes": 26,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    },
+    {
+      "model": "continuous_tanh32_s1801",
+      "kind": "tanh",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 12,
+      "heldout_native_passes": 29,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    },
+    {
+      "model": "continuous_tanh32_s1802",
+      "kind": "tanh",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 11,
+      "heldout_native_passes": 29,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    },
+    {
+      "model": "continuous_tanh32_s1803",
+      "kind": "tanh",
+      "feature_variant": "continuous_metric24",
+      "validation_native_passes": 12,
+      "heldout_native_passes": 26,
+      "fixed_validation_denominator": 16,
+      "fixed_heldout_denominator": 32
+    }
+  ],
+  "heldout_selection": false,
+  "current_model_equal_cost_tested": false,
+  "current_model_physical_transfer_tested": false,
+  "scientific_release": false,
+  "submission_ready": false
+}

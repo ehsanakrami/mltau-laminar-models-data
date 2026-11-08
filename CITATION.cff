@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Cite the archived version-specific DOI when the release record is finalized. DOI 10.5281/zenodo.24046881 is reserved in an unpublished Zenodo draft."
+title: "Learned stabilization of incompressible flow models and numerical evidence"
+type: dataset
+version: 0.1.0
+authors:
+  - family-names: Akrami
+    given-names: Ehsan
+    orcid: "https://orcid.org/0000-0002-9819-7192"
+  - family-names: Delauré
+    given-names: Yan
+    orcid: "https://orcid.org/0000-0002-7151-9278"
+keywords:
+  - finite elements
+  - incompressible flow
+  - stabilization
+  - machine learning

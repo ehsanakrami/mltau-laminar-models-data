@@ -1,0 +1,44 @@
+Local-source-identical confirmation, fixed before any local native result.
+Successor10 qualification choices fixed before its new native outcomes.
+Predecessor9 is retained as FAILED_NO_RETRY: its nonuniform Kovasznay8,
+nu=.003 positive directional perturbation failed all15 cold Newton solves.
+Residuals stalled near .45, not a roundoff/tolerance issue. No derivative
+comparison was admissible there. This limits cold-branch reliability; it is
+not evidence that the algebraic tangent is wrong or a reason to relax gates.
+The successor uses the standard S39 Kovasznay8,nu=.015 qualification anchor,
+plus the original MMS/poly/Gaussian anchors. It does not retry or relabel
+the failed nu=.003 stress case. All validation/test tuples and every model
+parameter remain unchanged. No claim of all-field cold differentiability.
+MeluXina v8 remains a separately registered replication waiting for a node.
+No quota policy, running job, scientific gate or model parameter is changed.
+
+The419 C++ inputs equal the qualified MeluXina snapshot. Local compiler,
+libraries and executable differ and require their own native admission.
+Four physical single-thread workers and one controller, 50min admission
+deadline,180sec exact-owned-process timeout,3GiB child limit. No GPU is useful
+for these small frozen inference maps. The8 models and45 training teachers
+are byte-identical to v8; no retraining or test-outcome model selection.
+
+Before native model validation:4 exposed-family cold SH anchors and
+nonuniform-field two-direction-step derivative checks (h=.001,.0005),
+plus6 strict assembled-Jacobian probes; independent field/gradient readback.
+All must pass. Failure stops, no automatic retry or gate relaxation.
+
+Recompute16 validation SH predictors and scalar controls locally, without
+validation teacher generation. Combine unchanged56 training records with
+these local validation inputs. All native availability/failures remain in
+the16-position selection. Models stay fitted on the original45 MeluXina
+training teachers. The original model-pack teacher hash pins TRAINING_INPUTS,
+while runtime task registrations separately pin local TEACHERS and TEST_INPUTS.
+
+Fresh32 tests use the already frozen v8 numerical roster; they are fresh
+parameters within exposed families, NOT newly unseen-family evidence.
+Their cold SH predictors/scalar controls are also recomputed locally. Freeze
+the chosen model by validation only, then evaluate all8 candidates on all32
+test positions. Case identities and failures remain in full denominators.
+Saved FE24 errors and independent forward/normalization audits must pass.
+
+This is new local-platform native evidence, not the unobserved MeluXina v8
+result. A later disagreement between platform choices must be reported,
+not resolved by selecting the more favourable platform. No complete-cost,
+physical-boundary, moving-mesh or turbulence qualification is implied.

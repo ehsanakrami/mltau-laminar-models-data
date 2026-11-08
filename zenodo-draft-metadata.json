@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "Learned stabilization of incompressible flow: trained models and numerical evidence",
+    "upload_type": "dataset",
+    "description": "Selected pressure-aware coefficient model, matched controls, saved training data and separately labeled experimental fixed-mesh response operators. Includes negative results and an independent finite binary64 linear-response certificate. Core FEM/fluid solver and training implementation are excluded. Saved-data replay does not reproduce native PDE execution.",
+    "creators": [
+      {
+        "name": "Akrami, Ehsan",
+        "orcid": "0000-0002-9819-7192"
+      },
+      {
+        "name": "Delaur\u00e9, Yan",
+        "orcid": "0000-0002-7151-9278"
+      }
+    ],
+    "keywords": [
+      "finite elements",
+      "stabilization",
+      "incompressible flow",
+      "machine learning"
+    ],
+    "version": "0.1.0"
+  },
+  "local_only_note": "Do not submit this envelope directly as metadata: licence and access-rights fields await confirmation. Reserve DOI in an authenticated draft; do not invent an identifier."
+}
