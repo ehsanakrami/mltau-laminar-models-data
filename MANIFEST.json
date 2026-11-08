@@ -34,8 +34,8 @@
       "sha256": "01302ae4c8a8b181620199a5ede0c262aebebbf6b767bd7909c3acfcc0ce7131"
     },
     "README.md": {
-      "bytes": 5790,
-      "sha256": "f21a14509d095637a1ee329afbc25165e1e57171b2eaa38ccac0888d55bcaccb"
+      "bytes": 6083,
+      "sha256": "fb2033f6a3510a48f5083be010fb900c3bdcd3b1337c4214b13dc55ff1c42fb9"
     },
     "analysis/rectangular_features/backend.py": {
       "bytes": 78,
@@ -262,8 +262,8 @@
       "sha256": "c939a2450103907a63bc0f6fc1cca87d2784fc21e2300f25f1689b6739c9ba28"
     },
     "scripts/verify_inventory.py": {
-      "bytes": 370,
-      "sha256": "c38843224e81f2abfd0bd492f105e8f9f6116392789d0bd90034d84d84585ef1"
+      "bytes": 881,
+      "sha256": "a56f0b52a32074ce42180e57112e6e3335c4f80ab480488a08badc0ca1ff452b"
     },
     "src/mltau_models/__init__.py": {
       "bytes": 129,

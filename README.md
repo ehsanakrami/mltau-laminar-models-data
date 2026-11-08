@@ -1,5 +1,8 @@
 # Learned stabilization models and numerical evidence
 
+[![Model verification](https://github.com/ehsanakrami/mltau-laminar-models-data/actions/workflows/verify.yml/badge.svg)](https://github.com/ehsanakrami/mltau-laminar-models-data/actions/workflows/verify.yml)
+[MIT licence](LICENSE) · DOI reserved: **10.5281/zenodo.24046881** (archive draft)
+
 Trained coefficient maps, saved numerical data and verification tools accompanying **Learned Stabilization of Incompressible Flow: Adaptivity, Reliability and Deployment Cost**, by Ehsan Akrami and Yan Delauré.
 
 **Status:** release staging. The manuscript remains under author review. DOI **10.5281/zenodo.24046881** is reserved in a Zenodo draft, which is not yet published or publicly resolvable. No paper acceptance or general stabilization superiority is claimed. The repository retains the MIT licence chosen at creation; bulk-data upload and archive terms are being finalized.
