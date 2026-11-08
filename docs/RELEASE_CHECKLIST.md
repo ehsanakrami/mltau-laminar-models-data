@@ -1,7 +1,8 @@
 # Release checklist
 
 - [x] New GitHub repository exists; SSH and connected-app access verified.
-- [ ] Author-approved licences installed for scripts, models and data.
+- [x] Original repository MIT licence preserved.
+- [ ] Bulk-data archive licence and publication finalized.
 - [ ] All staged assets screened for solver/training code, secrets and local paths.
 - [x] Initial inference tests and immutable model hashes pass.
 - [ ] Public data coverage and missing tiers are stated explicitly.

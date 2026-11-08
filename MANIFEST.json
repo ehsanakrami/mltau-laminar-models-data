@@ -21,17 +21,21 @@
       "bytes": 385,
       "sha256": "63dcc24bc29bd22bbee5e1251825f157475e7cf443e8fba046e606b751e801bc"
     },
+    "LICENSE": {
+      "bytes": 1068,
+      "sha256": "a3704f8549daacf86b26d1a5fda5422f801a54526c54197ded22466652a20ff2"
+    },
     "LICENSE_STATUS.md": {
-      "bytes": 507,
-      "sha256": "1cf3a37f4716f58ed0e87d77892baa8a864be784c642f1c6febfe287f7834404"
+      "bytes": 826,
+      "sha256": "1393bde80d2e06e10aae8a795fed48bc3f711c1b1de00d45fb1319769e24dc9f"
     },
     "PROVENANCE.json": {
       "bytes": 6261,
       "sha256": "01302ae4c8a8b181620199a5ede0c262aebebbf6b767bd7909c3acfcc0ce7131"
     },
     "README.md": {
-      "bytes": 4919,
-      "sha256": "2ecbc472ebc9351dee3b8156b58c3fc5a49bc78fa5f0fa1a1013615be1404a8d"
+      "bytes": 4999,
+      "sha256": "a510cf5cd9a215ff2b1bc7934b17fd21600f43b7a2901edca5ea5120900f5de8"
     },
     "analysis/rectangular_features/backend.py": {
       "bytes": 78,
@@ -74,12 +78,12 @@
       "sha256": "390aafa222dd5f08b6d260a02fa34a7a6b2f4cf543bdaabd3e805ad89b7512c7"
     },
     "docs/MODEL_CARD.md": {
-      "bytes": 2665,
-      "sha256": "fb7e02daf4fd51d2a62de08b4efe67e23c9fbc42c8d0af7b6a5e1cb7c3880706"
+      "bytes": 2746,
+      "sha256": "647072acd5e9b78b76b01e4da5edce0595e146d513dfb8729a6e18e836cb677b"
     },
     "docs/RELEASE_CHECKLIST.md": {
-      "bytes": 903,
-      "sha256": "ad5f07b27f54d6b116a0ec236543f600c94fb88488f21581a7a4cf85dea29d7a"
+      "bytes": 940,
+      "sha256": "e44adbe88fa1d37c0643a1baef4d14e39d5355d4e722eba6ae62c79c461da867"
     },
     "docs/REPRODUCIBILITY.md": {
       "bytes": 1798,

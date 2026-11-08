@@ -22,4 +22,4 @@ The shared58/shared62 files implement a different, global, fixed-mesh Oseen resp
 
 ## Reuse
 
-Check the model identifier, feature variant, array ordering and checksum. Retain bounds and normalization. A failed predictor is a failed deployment position; silently substituting analytic features or a successful comparator changes the experiment. Redistribution terms remain pending. The private solver is excluded.
+Check the model identifier, feature variant, array ordering and checksum. Retain bounds and normalization. A failed predictor is a failed deployment position; silently substituting analytic features or a successful comparator changes the experiment. The repository retains its original MIT licence; separately deposited bulk-data terms must be checked at the archive. The private solver is excluded.
