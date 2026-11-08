@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 0,
+    "case": {
+      "family": "mms",
+      "nu": 0.003,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n8x8_nu0p003"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 1,
+    "case": {
+      "family": "mms",
+      "nu": 0.003,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n12x12_nu0p003"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 2,
+    "case": {
+      "family": "mms",
+      "nu": 0.003,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n16x8_nu0p003"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 3,
+    "case": {
+      "family": "mms",
+      "nu": 0.003,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n24x6_nu0p003"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 4,
+    "case": {
+      "family": "mms",
+      "nu": 0.0075,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n8x8_nu0p0075"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 5,
+    "case": {
+      "family": "mms",
+      "nu": 0.0075,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n12x12_nu0p0075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 6,
+    "case": {
+      "family": "mms",
+      "nu": 0.0075,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n16x8_nu0p0075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 7,
+    "case": {
+      "family": "mms",
+      "nu": 0.0075,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n24x6_nu0p0075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 8,
+    "case": {
+      "family": "mms",
+      "nu": 0.015,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n8x8_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 9,
+    "case": {
+      "family": "mms",
+      "nu": 0.015,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n12x12_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 10,
+    "case": {
+      "family": "mms",
+      "nu": 0.015,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n16x8_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 11,
+    "case": {
+      "family": "mms",
+      "nu": 0.015,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n24x6_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 12,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n8x8_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 13,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n12x12_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 14,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n16x8_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 15,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_mms_n24x6_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 16,
+    "case": {
+      "family": "kov",
+      "nu": 0.003,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n8x8_nu0p003"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 17,
+    "case": {
+      "family": "kov",
+      "nu": 0.003,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n12x12_nu0p003"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 18,
+    "case": {
+      "family": "kov",
+      "nu": 0.003,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n16x8_nu0p003"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 19,
+    "case": {
+      "family": "kov",
+      "nu": 0.003,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n24x6_nu0p003"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 20,
+    "case": {
+      "family": "kov",
+      "nu": 0.0075,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n8x8_nu0p0075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 21,
+    "case": {
+      "family": "kov",
+      "nu": 0.0075,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n12x12_nu0p0075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 22,
+    "case": {
+      "family": "kov",
+      "nu": 0.0075,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n16x8_nu0p0075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 23,
+    "case": {
+      "family": "kov",
+      "nu": 0.0075,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n24x6_nu0p0075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 24,
+    "case": {
+      "family": "kov",
+      "nu": 0.015,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n8x8_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 25,
+    "case": {
+      "family": "kov",
+      "nu": 0.015,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n12x12_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 26,
+    "case": {
+      "family": "kov",
+      "nu": 0.015,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n16x8_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 27,
+    "case": {
+      "family": "kov",
+      "nu": 0.015,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n24x6_nu0p015"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 28,
+    "case": {
+      "family": "kov",
+      "nu": 0.03,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n8x8_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 29,
+    "case": {
+      "family": "kov",
+      "nu": 0.03,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n12x12_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 30,
+    "case": {
+      "family": "kov",
+      "nu": 0.03,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n16x8_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 31,
+    "case": {
+      "family": "kov",
+      "nu": 0.03,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_kov_n24x6_nu0p03"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 32,
+    "case": {
+      "family": "poly",
+      "nu": 0.009,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n8x8_nu0p009"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 33,
+    "case": {
+      "family": "poly",
+      "nu": 0.009,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n12x12_nu0p009"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 34,
+    "case": {
+      "family": "poly",
+      "nu": 0.009,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n16x8_nu0p009"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 35,
+    "case": {
+      "family": "poly",
+      "nu": 0.009,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n24x6_nu0p009"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 36,
+    "case": {
+      "family": "poly",
+      "nu": 0.018,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n8x8_nu0p018"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 37,
+    "case": {
+      "family": "poly",
+      "nu": 0.018,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n12x12_nu0p018"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 38,
+    "case": {
+      "family": "poly",
+      "nu": 0.018,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n16x8_nu0p018"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 39,
+    "case": {
+      "family": "poly",
+      "nu": 0.018,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n24x6_nu0p018"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 40,
+    "case": {
+      "family": "poly",
+      "nu": 0.045,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n8x8_nu0p045"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 41,
+    "case": {
+      "family": "poly",
+      "nu": 0.045,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n12x12_nu0p045"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 42,
+    "case": {
+      "family": "poly",
+      "nu": 0.045,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n16x8_nu0p045"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 43,
+    "case": {
+      "family": "poly",
+      "nu": 0.045,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_poly_n24x6_nu0p045"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 44,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.025,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n8x8_nu0p025"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 45,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.025,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n12x12_nu0p025"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 46,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.025,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n16x8_nu0p025"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 47,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.025,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n24x6_nu0p025"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 48,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.055,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n8x8_nu0p055"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 49,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.055,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n12x12_nu0p055"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 50,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.055,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n16x8_nu0p055"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": true,
+    "teacher_status": "unqualified_or_missing",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 51,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.055,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n24x6_nu0p055"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 52,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.11,
+      "nx": 8,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n8x8_nu0p11"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 53,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.11,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n12x12_nu0p11"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 54,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.11,
+      "nx": 16,
+      "ny": 8,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n16x8_nu0p11"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 55,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.11,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "train",
+      "name": "train_gaussian_n24x6_nu0p11"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": true,
+    "teacher_expected": true,
+    "teacher_status": "qualified",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 56,
+    "case": {
+      "family": "mms",
+      "nu": 0.006,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_mms_n10x10_nu0p006"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 57,
+    "case": {
+      "family": "mms",
+      "nu": 0.006,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_mms_n20x5_nu0p006"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 58,
+    "case": {
+      "family": "mms",
+      "nu": 0.022,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_mms_n10x10_nu0p022"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 59,
+    "case": {
+      "family": "mms",
+      "nu": 0.022,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_mms_n20x5_nu0p022"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 60,
+    "case": {
+      "family": "kov",
+      "nu": 0.006,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_kov_n10x10_nu0p006"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 61,
+    "case": {
+      "family": "kov",
+      "nu": 0.006,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_kov_n20x5_nu0p006"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 62,
+    "case": {
+      "family": "kov",
+      "nu": 0.022,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_kov_n10x10_nu0p022"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 63,
+    "case": {
+      "family": "kov",
+      "nu": 0.022,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_kov_n20x5_nu0p022"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 64,
+    "case": {
+      "family": "poly",
+      "nu": 0.012,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_poly_n10x10_nu0p012"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 65,
+    "case": {
+      "family": "poly",
+      "nu": 0.012,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_poly_n20x5_nu0p012"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 66,
+    "case": {
+      "family": "poly",
+      "nu": 0.035,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_poly_n10x10_nu0p035"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 67,
+    "case": {
+      "family": "poly",
+      "nu": 0.035,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_poly_n20x5_nu0p035"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 68,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.035,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_gaussian_n10x10_nu0p035"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 69,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.035,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_gaussian_n20x5_nu0p035"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 70,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.075,
+      "nx": 10,
+      "ny": 10,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_gaussian_n10x10_nu0p075"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 71,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.075,
+      "nx": 20,
+      "ny": 5,
+      "order": 1,
+      "split": "validation",
+      "name": "validation_gaussian_n20x5_nu0p075"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 72,
+    "case": {
+      "family": "mms",
+      "nu": 0.014,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_mms_n20x12_nu0p014_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 73,
+    "case": {
+      "family": "mms",
+      "nu": 0.014,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_mms_n12x20_nu0p014_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 74,
+    "case": {
+      "family": "mms",
+      "nu": 0.028,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_mms_n20x12_nu0p028_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 75,
+    "case": {
+      "family": "mms",
+      "nu": 0.028,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_mms_n12x20_nu0p028_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 76,
+    "case": {
+      "family": "kov",
+      "nu": 0.014,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_kov_n20x12_nu0p014_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 77,
+    "case": {
+      "family": "kov",
+      "nu": 0.014,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_kov_n12x20_nu0p014_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 78,
+    "case": {
+      "family": "kov",
+      "nu": 0.028,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_kov_n20x12_nu0p028_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 79,
+    "case": {
+      "family": "kov",
+      "nu": 0.028,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_kov_n12x20_nu0p028_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 80,
+    "case": {
+      "family": "poly",
+      "nu": 0.014,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_poly_n20x12_nu0p014_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 81,
+    "case": {
+      "family": "poly",
+      "nu": 0.014,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_poly_n12x20_nu0p014_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 82,
+    "case": {
+      "family": "poly",
+      "nu": 0.028,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_poly_n20x12_nu0p028_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 83,
+    "case": {
+      "family": "poly",
+      "nu": 0.028,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_poly_n12x20_nu0p028_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 84,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.045,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_gaussian_n20x12_nu0p045_k1"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 85,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.045,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_gaussian_n12x20_nu0p045_k1"
+    },
+    "feature_payload_present": false,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": false
+  },
+  {
+    "id": 86,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.09,
+      "nx": 20,
+      "ny": 12,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_gaussian_n20x12_nu0p09_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 87,
+    "case": {
+      "family": "gaussian",
+      "nu": 0.09,
+      "nx": 12,
+      "ny": 20,
+      "order": 1,
+      "split": "geometry_test",
+      "k": 1.0,
+      "name": "fresh_geometry_test_gaussian_n12x20_nu0p09_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 88,
+    "case": {
+      "family": "linke",
+      "nu": 0.006,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n12x12_nu0p006_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 89,
+    "case": {
+      "family": "linke",
+      "nu": 0.006,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n24x6_nu0p006_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 90,
+    "case": {
+      "family": "linke",
+      "nu": 0.02,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n12x12_nu0p02_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 91,
+    "case": {
+      "family": "linke",
+      "nu": 0.02,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n24x6_nu0p02_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 92,
+    "case": {
+      "family": "linke",
+      "nu": 0.06,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n12x12_nu0p06_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 93,
+    "case": {
+      "family": "linke",
+      "nu": 0.06,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n24x6_nu0p06_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 94,
+    "case": {
+      "family": "linke",
+      "nu": 0.18,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n12x12_nu0p18_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 95,
+    "case": {
+      "family": "linke",
+      "nu": 0.18,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "family_test",
+      "k": 1.0,
+      "name": "fresh_family_test_linke_n24x6_nu0p18_k1"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 96,
+    "case": {
+      "family": "mms",
+      "nu": 0.01,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 1.5,
+      "name": "fresh_pressure_test_mms_n12x12_nu0p01_k1p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 97,
+    "case": {
+      "family": "mms",
+      "nu": 0.01,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 1.5,
+      "name": "fresh_pressure_test_mms_n24x6_nu0p01_k1p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 98,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 1.5,
+      "name": "fresh_pressure_test_mms_n12x12_nu0p03_k1p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 99,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 1.5,
+      "name": "fresh_pressure_test_mms_n24x6_nu0p03_k1p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 100,
+    "case": {
+      "family": "mms",
+      "nu": 0.01,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 3.5,
+      "name": "fresh_pressure_test_mms_n12x12_nu0p01_k3p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 101,
+    "case": {
+      "family": "mms",
+      "nu": 0.01,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 3.5,
+      "name": "fresh_pressure_test_mms_n24x6_nu0p01_k3p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 102,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 12,
+      "ny": 12,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 3.5,
+      "name": "fresh_pressure_test_mms_n12x12_nu0p03_k3p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  },
+  {
+    "id": 103,
+    "case": {
+      "family": "mms",
+      "nu": 0.03,
+      "nx": 24,
+      "ny": 6,
+      "order": 1,
+      "split": "pressure_test",
+      "k": 3.5,
+      "name": "fresh_pressure_test_mms_n24x6_nu0p03_k3p5"
+    },
+    "feature_payload_present": true,
+    "qualified_training_teacher": false,
+    "teacher_expected": false,
+    "teacher_status": "not_generated_for_evaluation",
+    "source_record_complete_flag": true
+  }
+]

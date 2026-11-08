@@ -1,0 +1,304 @@
+{
+  "assets": [
+    {
+      "name": "MLTAU_PRESSURE_RAW_001.zip",
+      "group": "pressure45",
+      "bytes": 139862824,
+      "sha256": "136ff24ebdb23c69944c9f3d8150d1e4d63f6fbcf827221657e9d9fa2cb2ae3d",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_RAW_002.zip",
+      "group": "pressure45",
+      "bytes": 108398178,
+      "sha256": "63b2a90723a9ea26999862a93ac4a205212e11eb71456ff6c1ff90eec19ab4f0",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_METADATA_v1.zip",
+      "group": "pressure45",
+      "bytes": 10177,
+      "sha256": "ab71c69ff650339d5e9b23ef2f5d3e233b1ca695f2ea59619f8597cd977415be",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_001.zip",
+      "group": "pressure45",
+      "bytes": 20534753,
+      "sha256": "9c5d553cdb0056a8613f1b573ca24626fe9319df377aa8b644fbd1ab9c1cb335",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_002.zip",
+      "group": "pressure45",
+      "bytes": 17366160,
+      "sha256": "6a4bf9327fe98c02ccd4dfee605dccf33ec3774a6d8e5f3edc55f7ac14567c40",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_003.zip",
+      "group": "pressure45",
+      "bytes": 20666854,
+      "sha256": "93f3b509034664149c1e8573f9ae4384bf47a38394da533b9c1a0183e0aa3feb",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_004.zip",
+      "group": "pressure45",
+      "bytes": 25079242,
+      "sha256": "8dd1d2f5a1e49a551afc9dc4daa9cd63d13b4f07b64c7fa054cadf84ec681d35",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_005.zip",
+      "group": "pressure45",
+      "bytes": 24432490,
+      "sha256": "e2254489fb12b374997d6ddad1243ce6677016052fc7ff43aaed7b1644fcc7dc",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_006.zip",
+      "group": "pressure45",
+      "bytes": 15382327,
+      "sha256": "925b48039b8ad8757640c4a329fd8d88cd7b0b494de44b2c81968eb4811d45b6",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_007.zip",
+      "group": "pressure45",
+      "bytes": 25633844,
+      "sha256": "9ff91274e6e53d43536401c08325c1afabf92e126f6932ac4b1a3b087533cfe7",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_008.zip",
+      "group": "pressure45",
+      "bytes": 22171815,
+      "sha256": "e50f9b9f99bf6d7b5a2319d480c447e262282333bfad59f6555b64ba81849c02",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_DATA_009.zip",
+      "group": "pressure45",
+      "bytes": 10427618,
+      "sha256": "c4234cc60107ededf4ae19b6082df4fbe2630a27675e0c0145e084fabacd59b2",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRESSURE_FINAL_CLOSEOUT_v1.zip",
+      "group": "pressure45",
+      "bytes": 55247,
+      "sha256": "98e68a4179e4b774a6ca4d4b01419d6d170971622fc6aaadcae23b426fd01c42",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_QA55_PHYSICAL_SOURCE_FREE_v3.zip",
+      "group": "physical",
+      "bytes": 97344690,
+      "sha256": "5cff5f140aa9e0a8fe22483fbf6d45fd19a1eb99d20dd424e7c3987da655ade5",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_S45_SOURCE_FREE_v2.zip",
+      "group": "calibration_S45",
+      "bytes": 2826808,
+      "sha256": "ce78d49f3c04546dfa7e310e682af1751f432d1d2a22c134e89fce2b070b8c9d",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_REPLACEMENT52_MODEL_DATA_RESULTS_LOCAL.zip",
+      "group": "replacement52_archive",
+      "bytes": 18539200,
+      "sha256": "7cd997c6e9c15bd085ce47b0899b0c9ca6d4d1036124f102e7275cd071dc11d9",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_TRAINING52_RAW.zip",
+      "group": "replacement52_separate_training_raw",
+      "bytes": 76154853,
+      "sha256": "77ea638bcef445cff7b5b8761aec378855765fe5177c9d5cb6b3772e44d4a424",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_PARTIAL_DATA_MODELS_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 236108874,
+      "sha256": "78e07cb561d5915f63cdb654a76b3d0854372890802618009d635f9866df092c",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_SAVED_RESULTS_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 2554032,
+      "sha256": "3ca3a0bcfcba64ac2bb95aeaf636269a92c11c856a442697124263c8147d0277",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_MATCHED_TRAINING_MODELS_v2.zip",
+      "group": "historical_typed_scope",
+      "bytes": 225132965,
+      "sha256": "bb1cf750cb25377e20348e12574fa157b70c7e6b08f6ece61510a01e66105654",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_MATCHED_SCORES_v2.zip",
+      "group": "historical_typed_scope",
+      "bytes": 1789393,
+      "sha256": "89be456b30d994d99026fc3216257b8f5bfe26245b3cc72eceebbcd7e208dc8e",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_MATCHED_FIELDS_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 6526319465,
+      "sha256": "c8eb784ba5993b038e924c071ab46831c545f65913832c84ad35135e96ce41e8",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_TRAINING_HISTORIES_v3.zip",
+      "group": "historical_typed_scope",
+      "bytes": 431406151,
+      "sha256": "220cb5070819e38745baace9f8b33e55f96821c1eb95986f6f08b985e52b87c4",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_ADDED_MESH_FUNCTIONALS_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 65676793,
+      "sha256": "7829c04eaabaf1e546e2ef874ebc08c4afc51af49c9999bc98b0eb66b406a85c",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_CANONICAL_MAPPED_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 25933167,
+      "sha256": "4c9e726cea9c83e241dd07cedd4c2ee493ee508f00c1a2f9e2506645d3f140e9",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_PRESSURE_SPECIALIST_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 134625055,
+      "sha256": "216985836ac0199c28c2a0cf6c252df8b0d3c1aa9c630a6cf43d695a3a743265",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_PRESSURE_OUTLET_v3.zip",
+      "group": "historical_typed_scope",
+      "bytes": 199009453,
+      "sha256": "e6510fb369696715700f2dba591ba946b03e3f902a1c282656a616288b27bc65",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_WSL_UNIT_DATA_20261015_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 9083912,
+      "sha256": "03554f4603438f087317aabe0c808de5c96021b6e60928d98988c61d270a94bc",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_WSL_FOLLOWUP_DATA_20261015_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 51350066,
+      "sha256": "8db55a6381c0440dfb65f3ff3324849a9576d4da012e9416b7244ae579de33f9",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_WSL_TIME_CONTRACT_DATA_20261015_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 2337877,
+      "sha256": "fd2c95d964156d16443d35b7436c1640b273d6052b699a258febbbda1c198358",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_HISTORICAL_SEALED_DATA_v2.zip",
+      "group": "historical_typed_scope",
+      "bytes": 41005594,
+      "sha256": "975c454c6d18d797866be081eb18992c8a687385c82df9cf09f40f0c81bccacf",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_HISTORICAL_MODELS_CORPORA_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 414143073,
+      "sha256": "90561f444852d922c0f9c5e4efcccd42f60c85248db528bf707f5b0c3f7233f4",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_LEGACY_RESULTS_AND_RAW_INDEX_v2.zip",
+      "group": "historical_typed_scope",
+      "bytes": 31588819,
+      "sha256": "151a63b618fd882e421854d88352c6f6d1f8401670ac40d90d1846a4441b18cb",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_HISTORICAL_PERIODIC_DATA_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 250493487,
+      "sha256": "24f033c18a2a99d8f21585d3e3e694f19e78622c71136c25b2ee3a0e62c8ddea",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_RECONSTRUCTED_DATA_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 17652515,
+      "sha256": "02bd498ca9f805b10b802be1eb5b5b31726d610606af014d31328c03e14a1569",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_LEGACY_ROLE_CORRECTION_v2.zip",
+      "group": "historical_typed_scope",
+      "bytes": 22160970,
+      "sha256": "787c2eea8e7658fa12d549d17056a7074d83cbf2fa8e4478d5583011f38b1eb1",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    },
+    {
+      "name": "MLTAU_PRIVATE_MATCHED_DEPLOYMENT_v1.zip",
+      "group": "historical_typed_scope",
+      "bytes": 4586112,
+      "sha256": "0592e5c46f02b6b00c32c760d278b7ec1a3053f293c9414059727fa1a43ec87f",
+      "access": "staged_local_pending_Zenodo",
+      "semantic_review": "Historical typed scope; source-free publication screening still required for each bulk asset."
+    }
+  ],
+  "count": 37,
+  "download_urls_available": false,
+  "local_paths_removed": true,
+  "scope": "Manifest of historical data tiers; these are NOT yet publicly deposited and not all are included in this Git checkout."
+}

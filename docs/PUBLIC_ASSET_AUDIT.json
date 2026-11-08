@@ -1,0 +1,29 @@
+[
+  {
+    "file": "MLTAU_EXPERIMENTAL_COUPLED_FIELDS.zip",
+    "nonstandard_JSON_numbers": 0,
+    "NPZ_object_arrays": 0,
+    "NPZ_local_path_strings": 0,
+    "native_or_training_sources": [],
+    "secret_matches": 0,
+    "members": 18
+  },
+  {
+    "file": "MLTAU_PRESSURE_SAVED_FIELDS_001.zip",
+    "nonstandard_JSON_numbers": 0,
+    "NPZ_object_arrays": 0,
+    "NPZ_local_path_strings": 0,
+    "native_or_training_sources": [],
+    "secret_matches": 0,
+    "members": 31554
+  },
+  {
+    "file": "MLTAU_PRESSURE_SAVED_FIELDS_002.zip",
+    "nonstandard_JSON_numbers": 0,
+    "NPZ_object_arrays": 0,
+    "NPZ_local_path_strings": 0,
+    "native_or_training_sources": [],
+    "secret_matches": 0,
+    "members": 26201
+  }
+]

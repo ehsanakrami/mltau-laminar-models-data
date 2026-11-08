@@ -34,8 +34,8 @@
       "sha256": "01302ae4c8a8b181620199a5ede0c262aebebbf6b767bd7909c3acfcc0ce7131"
     },
     "README.md": {
-      "bytes": 5372,
-      "sha256": "a7929cd32837c6d961f2ad20cb810b12f15ee45b9609fdbeb960f5238e52eaa3"
+      "bytes": 5790,
+      "sha256": "f21a14509d095637a1ee329afbc25165e1e57171b2eaa38ccac0888d55bcaccb"
     },
     "analysis/rectangular_features/backend.py": {
       "bytes": 78,
@@ -62,12 +62,24 @@
       "sha256": "ed5e8b1d716e8ae7197078e89d065ea76fc1198bb716dd7484fbd6b5dab2100d"
     },
     "data/BULK_DATA_CATALOG.json": {
+      "bytes": 1483,
+      "sha256": "aa8e44f5e452ae4c7d4142ad531142284771e8e37905db03061e5e14465611b5"
+    },
+    "data/HISTORICAL_TIER_INDEX.json": {
       "bytes": 14287,
       "sha256": "f5233ff0a35fd370ce3fdbe62f64c9d2685cc6409e256ce2ad0f2392f354cac3"
+    },
+    "data/pressure45/all_available_predictor_features.npz": {
+      "bytes": 1582204,
+      "sha256": "19c8ff7ee49a11a5f7e577b49cf225d40a515b5618069ef43fc5f7e3aa8159b7"
     },
     "data/pressure45/planned_cases.json": {
       "bytes": 18464,
       "sha256": "6bbaac2a77e36a7276564bc6aa8afe00f2bf58d4001116acee9bada6933012b8"
+    },
+    "data/pressure45/predictor_case_catalog.json": {
+      "bytes": 42563,
+      "sha256": "11445513c00151325b0f1c8fa5d976f57945fd91eb7f6481f012091c1d120f24"
     },
     "data/pressure45/qualified_teachers.npz": {
       "bytes": 682036,
@@ -77,17 +89,25 @@
       "bytes": 458,
       "sha256": "390aafa222dd5f08b6d260a02fa34a7a6b2f4cf543bdaabd3e805ad89b7512c7"
     },
+    "docs/INTEGRATION.md": {
+      "bytes": 2192,
+      "sha256": "d65204f82281b8f19563a383205ae91afe22956ce03a05be9b5440077975a800"
+    },
     "docs/MODEL_CARD.md": {
       "bytes": 2746,
       "sha256": "647072acd5e9b78b76b01e4da5edce0595e146d513dfb8729a6e18e836cb677b"
     },
+    "docs/PUBLIC_ASSET_AUDIT.json": {
+      "bytes": 722,
+      "sha256": "26f78d3eb7545b21ec93fca6cbc7de86d45127c3748eed58008b34985d6d787c"
+    },
     "docs/RELEASE_CHECKLIST.md": {
-      "bytes": 940,
-      "sha256": "e44adbe88fa1d37c0643a1baef4d14e39d5355d4e722eba6ae62c79c461da867"
+      "bytes": 1048,
+      "sha256": "7d2048d4008904a3d37624ea35720d8cc5a1e780af71ed2a67cc5288481b4d70"
     },
     "docs/REPRODUCIBILITY.md": {
-      "bytes": 1798,
-      "sha256": "a061f6499ba57bb09ccf0c3f29c4374667619265e814a6aad47fd6b020af78ac"
+      "bytes": 2239,
+      "sha256": "5b23982df03ad560ca4d881246686215379446a65b223fa49cf51f4880b0a38c"
     },
     "docs/feature_schema.json": {
       "bytes": 997,
