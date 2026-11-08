@@ -17,6 +17,15 @@ python -m pip install -e '.[verification]'
 python verification/linear_pressure/verify_pressure_certificate.py
 ```
 
+To infer from a saved rectangular Q1 predictor field:
+
+```bash
+python -m pip install -e '.[fields]'
+python examples/predict_saved_field.py tests/fixtures/predictor_q1_mms_n10_nu006.e --nu 0.006 --output coefficients.csv
+```
+
+The supplied field is an archived computed SH predictor. This example computes its 24 features and coefficients; it does not run the fluid solver.
+
 Use Python 3.10 or later. NumPy is sufficient for model inference. SciPy is needed for the matrix certificate; netCDF4 is needed only for optional saved-field feature extraction. Tests perform no network access and require no private solver.
 
 ## Collections and scientific scope

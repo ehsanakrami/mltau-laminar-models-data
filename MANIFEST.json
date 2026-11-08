@@ -2,8 +2,8 @@
   "schema": "mltau-model-data-release/v0.1.0-staging",
   "files": {
     ".github/workflows/verify.yml": {
-      "bytes": 653,
-      "sha256": "d8a7c40d7ad9cbcca7ac6c8a2e2a520cd8e6c495132eb4717c6e85beb5ce68af"
+      "bytes": 660,
+      "sha256": "3269c934030f7ad225e1f75de6f3dcf5a8fdd4821a2f46671b223784b58aa952"
     },
     ".gitignore": {
       "bytes": 75,
@@ -34,8 +34,8 @@
       "sha256": "01302ae4c8a8b181620199a5ede0c262aebebbf6b767bd7909c3acfcc0ce7131"
     },
     "README.md": {
-      "bytes": 4999,
-      "sha256": "a510cf5cd9a215ff2b1bc7934b17fd21600f43b7a2901edca5ea5120900f5de8"
+      "bytes": 5372,
+      "sha256": "a7929cd32837c6d961f2ad20cb810b12f15ee45b9609fdbeb960f5238e52eaa3"
     },
     "analysis/rectangular_features/backend.py": {
       "bytes": 78,
@@ -104,6 +104,10 @@
     "examples/predict_pressure45.py": {
       "bytes": 600,
       "sha256": "e761ffe889d4f05a9a03b939c2a22a0bfe11e28014a3edb668172cecbda4ac53"
+    },
+    "examples/predict_saved_field.py": {
+      "bytes": 1042,
+      "sha256": "1c63ab38e69dca6d8daabecf06b95eeb20d179169f058a472a68ac69c08017e4"
     },
     "experimental/shared58/ALL_PROFILE_ERRORS.csv": {
       "bytes": 957730,
@@ -253,6 +257,14 @@
       "bytes": 320,
       "sha256": "1a4b0043bcc3d89312823e627cd05949becc84fffe283cb2201007a09a8a9352"
     },
+    "tests/fixtures/predictor_expected.json": {
+      "bytes": 62194,
+      "sha256": "e297bee0c0a90162399ee67f0a3d04255f15db4f89cf41b90a052e7eecf76a77"
+    },
+    "tests/fixtures/predictor_q1_mms_n10_nu006.e": {
+      "bytes": 54392,
+      "sha256": "a6b9b6e80e855d0ad029c58221255fa719a8a79b24c8134f7198cb63cca483c3"
+    },
     "tests/fixtures/pressure45_forward.npz": {
       "bytes": 6282,
       "sha256": "9a1af709313d528a439621f3f36adb8dd2a65e4c8be6266352bd3b88b76687c5"
@@ -260,6 +272,10 @@
     "tests/test_inference.py": {
       "bytes": 1584,
       "sha256": "d90efee3f4ed95940fb90a551e3ab24b613dc473ab60b8c18da3ce51ac3f0135"
+    },
+    "tests/test_saved_field.py": {
+      "bytes": 759,
+      "sha256": "cc8d1b7d8b6c732b12998ecb697b16f63b007d7808bcaee3a116692ca47b185e"
     },
     "verification/linear_pressure/SOURCE_CATALOGUE.json": {
       "bytes": 6565,
