@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Learned stabilization of incompressible flow: trained models and numerical evidence",
     "upload_type": "dataset",
-    "description": "Selected pressure-aware coefficient model, matched controls, saved training data and separately labeled experimental fixed-mesh response operators. Includes negative results and an independent finite binary64 linear-response certificate. Core FEM/fluid solver and training implementation are excluded. Saved-data replay does not reproduce native PDE execution.",
+    "description": "Trained coefficient models and numerical evidence accompanying Learned Stabilization of Incompressible Flow: Adaptivity, Reliability and Deployment Cost, by Ehsan Akrami and Yan Delaure. Version 0.1.1 archives eight pressure45 model/control maps, five earlier 58-action and four expanded 62-action coefficient candidates, 45 qualified training teachers, 90 available predictor feature payloads and 104 indexed train/validation/fresh positions. Three numerical archives provide screened pressure saved fields and all 13 expanded physical readbacks plus pressure-representation oracles and adverse coupled controls. A standalone finite binary64 linear-response certificate and saved-field inference tests are included. Failed outcomes and the limits of conditional accuracy gains are retained. General ML reliability and equal-cost superiority are not established. The historical 37-tier dossier is not all distributed. Core FEM/fluid solver, training implementation and native binaries are excluded; this supports inference and saved-data replay, not native PDE reproduction. The associated manuscript remains under author review. The three numerical archive bytes are unchanged from the checksum-verified draft. This metadata patch changes no trained coefficient or scientific result.",
     "creators": [
       {
         "name": "Akrami, Ehsan",
@@ -19,7 +19,16 @@
       "incompressible flow",
       "machine learning"
     ],
-    "version": "0.1.0"
-  },
-  "local_only_note": "Do not submit this envelope directly as metadata: licence and access-rights fields await confirmation. Reserve DOI in an authenticated draft; do not invent an identifier."
+    "version": "0.1.1",
+    "access_right": "open",
+    "license": "mit",
+    "publication_date": "2026-11-08",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/ehsanakrami/mltau-laminar-models-data/tree/v0.1.1",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ]
+  }
 }

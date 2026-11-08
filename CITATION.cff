@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Cite the archived version-specific DOI when the release record is finalized. DOI 10.5281/zenodo.24046881 is reserved in an unpublished Zenodo draft."
+message: "Please cite this model/data archive when using these artifacts. The associated manuscript remains under author review."
 title: "Learned stabilization of incompressible flow models and numerical evidence"
 type: dataset
-version: 0.1.0
+version: 0.1.1
 authors:
   - family-names: Akrami
     given-names: Ehsan
@@ -15,3 +15,7 @@ keywords:
   - incompressible flow
   - stabilization
   - machine learning
+doi: 10.5281/zenodo.24046881
+license: MIT
+date-released: 2026-11-08
+url: https://github.com/ehsanakrami/mltau-laminar-models-data/tree/v0.1.1

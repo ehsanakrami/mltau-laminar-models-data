@@ -1,5 +1,3 @@
 # Release rights
 
-The original MIT licence selected when this repository was created is preserved in `LICENSE`. It applies to this repository's distributed model parameters, supporting inference/verification code and documentation to the extent those materials are subject to copyright and covered by that licence. It grants no rights over the excluded private FEM/fluid solver or training implementation. Data not distributed in this checkout remain subject to their separately finalized asset terms. Numerical facts do not acquire restrictions merely because they are described here.
-
-The Zenodo record is a draft with a reserved DOI. Its final bulk-data licence and publication remain to be finalized. An alternative Creative Commons data licence has not been silently substituted for the repository's original MIT choice.
+Version0.1.1 and the four files deposited under DOI10.5281/zenodo.24046881 use the MIT licence preserved from the repository's original licence choice. The licence text is in `LICENSE`. It covers the distributed trained parameters, numerical data, documentation and supporting inference/verification scripts to the extent those materials are subject to copyright. It grants no rights over the excluded private FEM/fluid solver or training implementation. Undeposited historical material is outside this release.

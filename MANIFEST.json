@@ -1,5 +1,5 @@
 {
-  "schema": "mltau-model-data-release/v0.1.0-staging",
+  "schema": "mltau-model-data-release/v0.1.1",
   "files": {
     ".github/workflows/verify.yml": {
       "bytes": 660,
@@ -10,12 +10,12 @@
       "sha256": "1b4a710227f779dd59ede70ae14dc4fd14602a0b02436cfcd5e2fb5d977181e0"
     },
     "CHANGELOG.md": {
-      "bytes": 276,
-      "sha256": "a61121535041105f9100b80ee87057b3a58a040f7a04dd8ed66ad035b8898f6f"
+      "bytes": 448,
+      "sha256": "1851196e52f2b10b0315cf109c7356e3ea3aa1c28d10677a9318c69a1bdeda55"
     },
     "CITATION.cff": {
-      "bytes": 592,
-      "sha256": "3de3b56c5a7ca15eebad30779bfa543214fc4f08dc42a6f335ea76251f5cb555"
+      "bytes": 704,
+      "sha256": "d427d2e6f1c4b121c081c09e5caf2f0230d2ea4f06562f7cd2b545293c7a46f0"
     },
     "CONTRIBUTING.md": {
       "bytes": 385,
@@ -26,16 +26,16 @@
       "sha256": "a3704f8549daacf86b26d1a5fda5422f801a54526c54197ded22466652a20ff2"
     },
     "LICENSE_STATUS.md": {
-      "bytes": 826,
-      "sha256": "1393bde80d2e06e10aae8a795fed48bc3f711c1b1de00d45fb1319769e24dc9f"
+      "bytes": 530,
+      "sha256": "5e9a9ceb825de0a10dcf7a6d3f03df3d607357f54100201b2af808a9def14771"
     },
     "PROVENANCE.json": {
-      "bytes": 6261,
-      "sha256": "01302ae4c8a8b181620199a5ede0c262aebebbf6b767bd7909c3acfcc0ce7131"
+      "bytes": 6331,
+      "sha256": "e1dd4cc024631000dbfe7aab1772d632b6af551107ffeef8712564f344376378"
     },
     "README.md": {
-      "bytes": 6083,
-      "sha256": "fb2033f6a3510a48f5083be010fb900c3bdcd3b1337c4214b13dc55ff1c42fb9"
+      "bytes": 5909,
+      "sha256": "d29250e2f8ba2de5cd6e68e913604b2a4fb4d7ae5b46a4336b0dd11a470f4f65"
     },
     "analysis/rectangular_features/backend.py": {
       "bytes": 78,
@@ -62,8 +62,8 @@
       "sha256": "ed5e8b1d716e8ae7197078e89d065ea76fc1198bb716dd7484fbd6b5dab2100d"
     },
     "data/BULK_DATA_CATALOG.json": {
-      "bytes": 1483,
-      "sha256": "aa8e44f5e452ae4c7d4142ad531142284771e8e37905db03061e5e14465611b5"
+      "bytes": 1393,
+      "sha256": "cfcfa60fb5431857f474a7329815dd13968470137196277948b92d9e8d838bc3"
     },
     "data/HISTORICAL_TIER_INDEX.json": {
       "bytes": 14287,
@@ -86,28 +86,28 @@
       "sha256": "795a36ca489181c493bdcf7ee5368af69773d292247567d9a5846bec3c0a699c"
     },
     "docs/DOI_STATUS.md": {
-      "bytes": 458,
-      "sha256": "390aafa222dd5f08b6d260a02fa34a7a6b2f4cf543bdaabd3e805ad89b7512c7"
+      "bytes": 710,
+      "sha256": "8a3bd2daf5b970f94f83eadce646e506a5a2c2dbb85e3ccea173223947f9d813"
     },
     "docs/INTEGRATION.md": {
       "bytes": 2192,
       "sha256": "d65204f82281b8f19563a383205ae91afe22956ce03a05be9b5440077975a800"
     },
     "docs/MODEL_CARD.md": {
-      "bytes": 2746,
-      "sha256": "647072acd5e9b78b76b01e4da5edce0595e146d513dfb8729a6e18e836cb677b"
+      "bytes": 2687,
+      "sha256": "6e615360ec72ea14915784faec2121f8893e8072d0d3b2ff2b29693e484e66c3"
     },
     "docs/PUBLIC_ASSET_AUDIT.json": {
       "bytes": 722,
       "sha256": "26f78d3eb7545b21ec93fca6cbc7de86d45127c3748eed58008b34985d6d787c"
     },
     "docs/RELEASE_CHECKLIST.md": {
-      "bytes": 1048,
-      "sha256": "7d2048d4008904a3d37624ea35720d8cc5a1e780af71ed2a67cc5288481b4d70"
+      "bytes": 1031,
+      "sha256": "6ae92ae3ae1c53950b5500be4f1a755b1b705d8d347ae8e111f783b4a4b51944"
     },
     "docs/REPRODUCIBILITY.md": {
-      "bytes": 2239,
-      "sha256": "5b23982df03ad560ca4d881246686215379446a65b223fa49cf51f4880b0a38c"
+      "bytes": 2204,
+      "sha256": "772a0ad12776166ed9150ce858bb06fe56b4ef2b605d92a25ca6da25ac7d5003"
     },
     "docs/feature_schema.json": {
       "bytes": 997,
@@ -255,7 +255,7 @@
     },
     "pyproject.toml": {
       "bytes": 425,
-      "sha256": "3d12226e42d22087705e951ab29c3d360d97d72f4c73671bc353a24a6cb27b4d"
+      "sha256": "1fe2bbd9623b122da8e268c17f2c5021c2e9f890e2d4664a27eae9c9f53c66e6"
     },
     "results/pressure45/frozen_evaluation.json": {
       "bytes": 52120,
@@ -314,13 +314,14 @@
       "sha256": "27da89a1cda4be6900d8e83b5d74df69ceebef3721f7c59d47a92163560739c4"
     },
     "zenodo-draft-metadata.json": {
-      "bytes": 1088,
-      "sha256": "83f7e5776d47e66b1adb4e43ea3a95a8a091cfd2504cd8f0e35b543298048611"
+      "bytes": 2113,
+      "sha256": "0a92cf88a3779997547f11b1ec15d9f5979d6050f973804b30d6e8f27f31b64e"
     }
   },
   "private_solver_included": false,
   "training_implementation_included": false,
   "DOI_reserved": true,
   "DOI": "10.5281/zenodo.24046881",
-  "Zenodo_published": false
+  "Zenodo_published": true,
+  "licence": "MIT"
 }

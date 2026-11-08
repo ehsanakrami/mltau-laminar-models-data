@@ -1,16 +1,16 @@
 {
   "reserved_DOI": "10.5281/zenodo.24046881",
-  "Zenodo_published": false,
-  "access": "Owner-accessible draft; listed public download URLs activate only after publication.",
+  "Zenodo_published": true,
+  "access": "Open-access MIT-licensed Zenodo archive.",
   "assets": [
     {
       "file": "MLTAU_EXPERIMENTAL_COUPLED_FIELDS.zip",
       "bytes": 204669785,
       "sha256": "fbbdf8d62587b75578f5f3091d85eb16fcee3929497be1af0159222b64863c2f",
       "members": 18,
-      "uploaded_to_Zenodo_draft": true,
       "MD5_verified": true,
-      "future_download_url": "https://zenodo.org/records/24046881/files/MLTAU_EXPERIMENTAL_COUPLED_FIELDS.zip?download=1"
+      "public_download_url": "https://zenodo.org/records/24046881/files/MLTAU_EXPERIMENTAL_COUPLED_FIELDS.zip?download=1",
+      "deposited": true
     },
     {
       "file": "MLTAU_PRESSURE_SAVED_FIELDS_001.zip",
@@ -18,9 +18,9 @@
       "sha256": "9419a99b42baf8bad09ef13d7c8722994b32606a6aef9c9835a691e426b33bb9",
       "members": 31554,
       "omitted": 13940,
-      "uploaded_to_Zenodo_draft": true,
       "MD5_verified": true,
-      "future_download_url": "https://zenodo.org/records/24046881/files/MLTAU_PRESSURE_SAVED_FIELDS_001.zip?download=1"
+      "public_download_url": "https://zenodo.org/records/24046881/files/MLTAU_PRESSURE_SAVED_FIELDS_001.zip?download=1",
+      "deposited": true
     },
     {
       "file": "MLTAU_PRESSURE_SAVED_FIELDS_002.zip",
@@ -28,9 +28,9 @@
       "sha256": "32a35a102a78bd8cd2f5310c50cbc3d26c243f7daff77f9da8c8b928e3c47344",
       "members": 26201,
       "omitted": 10480,
-      "uploaded_to_Zenodo_draft": true,
       "MD5_verified": true,
-      "future_download_url": "https://zenodo.org/records/24046881/files/MLTAU_PRESSURE_SAVED_FIELDS_002.zip?download=1"
+      "public_download_url": "https://zenodo.org/records/24046881/files/MLTAU_PRESSURE_SAVED_FIELDS_002.zip?download=1",
+      "deposited": true
     }
   ],
   "total_bytes": 435798986,

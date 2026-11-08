@@ -131,9 +131,11 @@
       "sha256": "a1d990453d19455e9b363ae726c7809d366dd906d0fea5f12d4eaad955d70425"
     }
   ],
-  "publication_status": "GitHub upload prepared; Zenodo DOI reserved in an unpublished draft",
+  "publication_status": "Published model/data release0.1.1; model and numerical bytes unchanged from0.1.0.",
   "private_solver_included": false,
   "training_source_included": false,
   "manuscript_source_included": false,
-  "reserved_DOI": "10.5281/zenodo.24046881"
+  "reserved_DOI": "10.5281/zenodo.24046881",
+  "DOI": "10.5281/zenodo.24046881",
+  "licence": "MIT"
 }

@@ -1,5 +1,9 @@
 # Changelog
 
-## 0.1.0 staging
+## 0.1.1
 
-Initial curated pressure45 inference and data package; experimental shared58/shared62 coefficient and result collections; independent finite-data verifier. No new fitting, PDE solves, general reliability claim or public DOI in this preparation.
+Finalizes the MIT-licensed Zenodo publication, DOI citation and public asset links. Model coefficients, numerical fields, inference implementation and scientific verdicts are unchanged from0.1.0. The original0.1.0 tag remains available.
+
+## 0.1.0
+
+Initial curated pressure45 inference/data package, experimental shared58/shared62 collections and finite-data verifier. No new fitting, PDE solves or general reliability claim.
